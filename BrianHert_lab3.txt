@@ -1,0 +1,319 @@
+Script started on Tue 28 Feb 2023 04:02:06 PM PST
+]0;bhert@ecs-pa-coding1:~[?1034h[bhert@ecs-pa-coding1 ~]$ history -c
+]0;bhert@ecs-pa-coding1:~[bhert@ecs-pa-coding1 ~]$ cd csc60
+]0;bhert@ecs-pa-coding1:~/csc60[bhert@ecs-pa-coding1 csc60]$ mkdir lab3
+mkdir: cannot create directory ‘lab3’: File exists
+]0;bhert@ecs-pa-coding1:~/csc60[bhert@ecs-pa-coding1 csc60]$ cd lab3
+]0;bhert@ecs-pa-coding1:~/csc60/lab3[bhert@ecs-pa-coding1 lab3]$ pwd
+/home/student/bhert/csc60/lab3
+]0;bhert@ecs-pa-coding1:~/csc60/lab3[bhert@ecs-pa-coding1 lab3]$ mkdir aaa
+mkdir: cannot create directory ‘aaa’: File exists
+]0;bhert@ecs-pa-coding1:~/csc60/lab3[bhert@ecs-pa-coding1 lab3]$ cd aaa
+]0;bhert@ecs-pa-coding1:~/csc60/lab3/aaa[bhert@ecs-pa-coding1 aaa]$ pwd
+/home/student/bhert/csc60/lab3/aaa
+]0;bhert@ecs-pa-coding1:~/csc60/lab3/aaa[bhert@ecs-pa-coding1 aaa]$ cd...[K[K[K ..
+]0;bhert@ecs-pa-coding1:~/csc60/lab3[bhert@ecs-pa-coding1 lab3]$ pwd
+/home/student/bhert/csc60/lab3
+]0;bhert@ecs-pa-coding1:~/csc60/lab3[bhert@ecs-pa-coding1 lab3]$ ls > file1
+]0;bhert@ecs-pa-coding1:~/csc60/lab3[bhert@ecs-pa-coding1 lab3]$ cat file1
+aaa
+BrianHert_lab3.txt
+file1
+file2
+lab3
+StudentName_lab3.txt
+]0;bhert@ecs-pa-coding1:~/csc60/lab3[bhert@ecs-pa-coding1 lab3]$ less file1
+[?1049h[?1h=aaa
+BrianHert_lab3.txt
+file1
+file2
+lab3
+StudentName_lab3.txt
+[7mfile1 (END)[27m[K[K[?1l>[?1049l]0;bhert@ecs-pa-coding1:~/csc60/lab3[bhert@ecs-pa-coding1 lab3]$ file *
+aaa:                  directory
+BrianHert_lab3.txt:   UTF-8 Unicode text, with CRLF, CR, LF line terminators, with escape sequences, with overstriking
+file1:                ASCII text
+file2:                ASCII text
+lab3:                 directory
+StudentName_lab3.txt: UTF-8 Unicode text, with CRLF, CR, LF line terminators, with escape sequences, with overstriking
+]0;bhert@ecs-pa-coding1:~/csc60/lab3[bhert@ecs-pa-coding1 lab3]$ wc file1
+ 6  6 61 file1
+]0;bhert@ecs-pa-coding1:~/csc60/lab3[bhert@ecs-pa-coding1 lab3]$ wc *
+wc: aaa: Is a directory
+      0       0       0 aaa
+    399    2209   24576 BrianHert_lab3.txt
+      6       6      61 file1
+      3       3      16 file2
+wc: lab3: Is a directory
+      0       0       0 lab3
+    400    2217   24576 StudentName_lab3.txt
+    808    4435   49229 total
+]0;bhert@ecs-pa-coding1:~/csc60/lab3[bhert@ecs-pa-coding1 lab3]$ grep file file1
+[01;31m[Kfile[m[K1
+[01;31m[Kfile[m[K2
+]0;bhert@ecs-pa-coding1:~/csc60/lab3[bhert@ecs-pa-coding1 lab3]$ grep file file1
+[01;31m[Kfile[m[K1
+[01;31m[Kfile[m[K2
+]0;bhert@ecs-pa-coding1:~/csc60/lab3[bhert@ecs-pa-coding1 lab3]$ cp file file2
+cp: cannot stat ‘file’: No such file or directory
+]0;bhert@ecs-pa-coding1:~/csc60/lab3[bhert@ecs-pa-coding1 lab3]$ ls
+[0m[01;34maaa[0m  BrianHert_lab3.txt  file1  file2  [01;34mlab3[0m  StudentName_lab3.txt
+]0;bhert@ecs-pa-coding1:~/csc60/lab3[bhert@ecs-pa-coding1 lab3]$ rm  [Kfile2
+]0;bhert@ecs-pa-coding1:~/csc60/lab3[bhert@ecs-pa-coding1 lab3]$ ls
+[0m[01;34maaa[0m  BrianHert_lab3.txt  file1  [01;34mlab3[0m  StudentName_lab3.txt
+]0;bhert@ecs-pa-coding1:~/csc60/lab3[bhert@ecs-pa-coding1 lab3]$ clear
+[3;J[H[2J]0;bhert@ecs-pa-coding1:~/csc60/lab3[bhert@ecs-pa-coding1 lab3]$ grep grep[K[K[K[K[K file file1
+[01;31m[Kfile[m[K1
+[01;31m[Kfile[m[K2
+]0;bhert@ecs-pa-coding1:~/csc60/lab3[bhert@ecs-pa-coding1 lab3]$ rm file2
+rm: cannot remove ‘file2’: No such file or directory
+]0;bhert@ecs-pa-coding1:~/csc60/lab3[bhert@ecs-pa-coding1 lab3]$ clear
+[3;J[H[2J]0;bhert@ecs-pa-coding1:~/csc60/lab3[bhert@ecs-pa-coding1 lab3]$ cp file file2
+cp: cannot stat ‘file’: No such file or directory
+]0;bhert@ecs-pa-coding1:~/csc60/lab3[bhert@ecs-pa-coding1 lab3]$ ls
+[0m[01;34maaa[0m  BrianHert_lab3.txt  file1  [01;34mlab3[0m  StudentName_lab3.txt
+]0;bhert@ecs-pa-coding1:~/csc60/lab3[bhert@ecs-pa-coding1 lab3]$ clear
+[3;J[H[2J]0;bhert@ecs-pa-coding1:~/csc60/lab3[bhert@ecs-pa-coding1 lab3]$ history -c
+]0;bhert@ecs-pa-coding1:~/csc60/lab3[bhert@ecs-pa-coding1 lab3]$ cd csc60
+bash: cd: csc60: No such file or directory
+]0;bhert@ecs-pa-coding1:~/csc60/lab3[bhert@ecs-pa-coding1 lab3]$ script BrianHert_lab3.txt
+Script started, file is BrianHert_lab3.txt
+]0;bhert@ecs-pa-coding1:~/csc60/lab3[?1034h[bhert@ecs-pa-coding1 lab3]$ history -c
+]0;bhert@ecs-pa-coding1:~/csc60/lab3[bhert@ecs-pa-coding1 lab3]$ cd csc60
+bash: cd: csc60: No such file or directory
+]0;bhert@ecs-pa-coding1:~/csc60/lab3[bhert@ecs-pa-coding1 lab3]$ mkdir lab3
+mkdir: cannot create directory ‘lab3’: File exists
+]0;bhert@ecs-pa-coding1:~/csc60/lab3[bhert@ecs-pa-coding1 lab3]$ cd lab3
+]0;bhert@ecs-pa-coding1:~/csc60/lab3/lab3[bhert@ecs-pa-coding1 lab3]$ pwd
+/home/student/bhert/csc60/lab3/lab3
+]0;bhert@ecs-pa-coding1:~/csc60/lab3/lab3[bhert@ecs-pa-coding1 lab3]$ cd ..
+]0;bhert@ecs-pa-coding1:~/csc60/lab3[bhert@ecs-pa-coding1 lab3]$ pwd
+/home/student/bhert/csc60/lab3
+]0;bhert@ecs-pa-coding1:~/csc60/lab3[bhert@ecs-pa-coding1 lab3]$ ls > file1
+]0;bhert@ecs-pa-coding1:~/csc60/lab3[bhert@ecs-pa-coding1 lab3]$ cat file1
+aaa
+BrianHert_lab3.txt
+file1
+lab3
+StudentName_lab3.txt
+]0;bhert@ecs-pa-coding1:~/csc60/lab3[bhert@ecs-pa-coding1 lab3]$ less file1
+[?1049h[?1h=aaa
+BrianHert_lab3.txt
+file1
+lab3
+StudentName_lab3.txt
+[7mfile1 (END)[27m[K[K[?1l>[?1049l]0;bhert@ecs-pa-coding1:~/csc60/lab3[bhert@ecs-pa-coding1 lab3]$ file *
+aaa:                  directory
+BrianHert_lab3.txt:   empty
+file1:                ASCII text
+lab3:                 directory
+StudentName_lab3.txt: UTF-8 Unicode text, with CRLF, CR, LF line terminators, with escape sequences, with overstriking
+]0;bhert@ecs-pa-coding1:~/csc60/lab3[bhert@ecs-pa-coding1 lab3]$ wc file1
+ 5  5 55 file1
+]0;bhert@ecs-pa-coding1:~/csc60/lab3[bhert@ecs-pa-coding1 lab3]$ wc *
+wc: aaa: Is a directory
+      0       0       0 aaa
+      0       0       0 BrianHert_lab3.txt
+      5       5      55 file1
+wc: lab3: Is a directory
+      0       0       0 lab3
+    400    2217   24576 StudentName_lab3.txt
+    405    2222   24631 total
+]0;bhert@ecs-pa-coding1:~/csc60/lab3[bhert@ecs-pa-coding1 lab3]$ grep file file1
+[01;31m[Kfile[m[K1
+]0;bhert@ecs-pa-coding1:~/csc60/lab3[bhert@ecs-pa-coding1 lab3]$ grep file file1
+[01;31m[Kfile[m[K1
+]0;bhert@ecs-pa-coding1:~/csc60/lab3[bhert@ecs-pa-coding1 lab3]$ cp file file2
+cp: cannot stat ‘file’: No such file or directory
+]0;bhert@ecs-pa-coding1:~/csc60/lab3[bhert@ecs-pa-coding1 lab3]$ ls
+[0m[01;34maaa[0m  BrianHert_lab3.txt  file1  [01;34mlab3[0m  StudentName_lab3.txt
+]0;bhert@ecs-pa-coding1:~/csc60/lab3[bhert@ecs-pa-coding1 lab3]$ cd aaa
+]0;bhert@ecs-pa-coding1:~/csc60/lab3/aaa[bhert@ecs-pa-coding1 aaa]$ pwd
+/home/student/bhert/csc60/lab3/aaa
+]0;bhert@ecs-pa-coding1:~/csc60/lab3/aaa[bhert@ecs-pa-coding1 aaa]$ cp ../file1
+cp: missing destination file operand after ‘../file1’
+Try 'cp --help' for more information.
+]0;bhert@ecs-pa-coding1:~/csc60/lab3/aaa[bhert@ecs-pa-coding1 aaa]$ cp ../file1.
+cp: missing destination file operand after ‘../file1.’
+Try 'cp --help' for more information.
+]0;bhert@ecs-pa-coding1:~/csc60/lab3/aaa[bhert@ecs-pa-coding1 aaa]$ ls[K[Kclear
+[3;J[H[2J]0;bhert@ecs-pa-coding1:~/csc60/lab3/aaa[bhert@ecs-pa-coding1 aaa]$ cp .. [K/file [K1 .
+]0;bhert@ecs-pa-coding1:~/csc60/lab3/aaa[bhert@ecs-pa-coding1 aaa]$ ls
+aaalist  file1  file2
+]0;bhert@ecs-pa-coding1:~/csc60/lab3/aaa[bhert@ecs-pa-coding1 aaa]$ mv file f[K[K1 file2
+]0;bhert@ecs-pa-coding1:~/csc60/lab3/aaa[bhert@ecs-pa-coding1 aaa]$ ls
+aaalist  file2
+]0;bhert@ecs-pa-coding1:~/csc60/lab3/aaa[bhert@ecs-pa-coding1 aaa]$ mc [K[Kv ../file1 .
+]0;bhert@ecs-pa-coding1:~/csc60/lab3/aaa[bhert@ecs-pa-coding1 aaa]$ cd ..
+]0;bhert@ecs-pa-coding1:~/csc60/lab3[bhert@ecs-pa-coding1 lab3]$ ls
+[0m[01;34maaa[0m  BrianHert_lab3.txt  [01;34mlab3[0m  StudentName_lab3.txt
+]0;bhert@ecs-pa-coding1:~/csc60/lab3[bhert@ecs-pa-coding1 lab3]$ mv ../file1[K[K[K[K[K[K[K[K[K[K[Kls[K[Kcd aaa
+]0;bhert@ecs-pa-coding1:~/csc60/lab3/aaa[bhert@ecs-pa-coding1 aaa]$ ls
+aaalist  file1  file2
+]0;bhert@ecs-pa-coding1:~/csc60/lab3/aaa[bhert@ecs-pa-coding1 aaa]$ cmp file1 file2
+]0;bhert@ecs-pa-coding1:~/csc60/lab3/aaa[bhert@ecs-pa-coding1 aaa]$ ls > aaalist
+]0;bhert@ecs-pa-coding1:~/csc60/lab3/aaa[bhert@ecs-pa-coding1 aaa]$ cmp file1 aaalist
+file1 aaalist differ: byte 4, line 1
+]0;bhert@ecs-pa-coding1:~/csc60/lab3/aaa[bhert@ecs-pa-coding1 aaa]$ diff file1 aaalist
+1,2c1
+< aaa
+< BrianHert_lab3.txt
+---
+> aaalist
+4,5c3
+< lab3
+< StudentName_lab3.txt
+---
+> file2
+]0;bhert@ecs-pa-coding1:~/csc60/lab3/aaa[bhert@ecs-pa-coding1 aaa]$ re[Km -i file1
+rm: remove regular file ‘file1’? y
+]0;bhert@ecs-pa-coding1:~/csc60/lab3/aaa[bhert@ecs-pa-coding1 aaa]$ ls
+aaalist  file2
+]0;bhert@ecs-pa-coding1:~/csc60/lab3/aaa[bhert@ecs-pa-coding1 aaa]$ ps u
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+bhert    11151  0.0  0.0 127836  3704 pts/0    Ss   16:01   0:00 -bash
+bhert    11235  0.0  0.0 114300   824 pts/0    S+   16:02   0:00 script BrianHert_lab3.txt
+bhert    11237  0.0  0.0 114308   400 pts/0    R+   16:02   0:00 script BrianHert_lab3.txt
+bhert    11238  0.0  0.0 127900  3752 pts/1    Ss   16:02   0:00 bash -i
+bhert    11327  0.0  0.0 114300   824 pts/1    S+   16:06   0:00 script BrianHert_lab3.txt
+bhert    11329  0.0  0.0 114308   400 pts/1    S+   16:06   0:00 script BrianHert_lab3.txt
+bhert    11330  0.0  0.0 127900  3748 pts/2    Ss   16:06   0:00 bash -i
+bhert    11427  0.0  0.0 166156  1940 pts/2    R+   16:12   0:00 ps u
+]0;bhert@ecs-pa-coding1:~/csc60/lab3/aaa[bhert@ecs-pa-coding1 aaa]$ ps -l
+F S   UID   PID  PPID  C PRI  NI ADDR SZ WCHAN  TTY          TIME CMD
+0 S 85164956 11330 11329  0 80 0 - 31975 do_wai pts/2    00:00:00 bash
+0 R 85164956 11428 11330  0 80 0 - 38332 -      pts/2    00:00:00 ps
+]0;bhert@ecs-pa-coding1:~/csc60/lab3/aaa[bhert@ecs-pa-coding1 aaa]$ !!
+ps -l
+F S   UID   PID  PPID  C PRI  NI ADDR SZ WCHAN  TTY          TIME CMD
+0 S 85164956 11330 11329  0 80 0 - 31975 do_wai pts/2    00:00:00 bash
+0 R 85164956 11429 11330  0 80 0 - 38332 -      pts/2    00:00:00 ps
+]0;bhert@ecs-pa-coding1:~/csc60/lab3/aaa[bhert@ecs-pa-coding1 aaa]$ cd ../..
+]0;bhert@ecs-pa-coding1:~/csc60[bhert@ecs-pa-coding1 csc60]$ pwd
+/home/student/bhert/csc60
+]0;bhert@ecs-pa-coding1:~/csc60[bhert@ecs-pa-coding1 csc60]$ cd lab2
+]0;bhert@ecs-pa-coding1:~/csc60/lab2[bhert@ecs-pa-coding1 lab2]$ head lab2.c
+head: cannot open ‘lab2.c’ for reading: No such file or directory
+]0;bhert@ecs-pa-coding1:~/csc60/lab2[bhert@ecs-pa-coding1 lab2]$ head -20 [K[K[K[K[K[K[K[K[Khead [K[K[K[K[Kclear
+[3;J[H[2J]0;bhert@ecs-pa-coding1:~/csc60/lab2[bhert@ecs-pa-coding1 lab2]$ head lab2.c
+head: cannot open ‘lab2.c’ for reading: No such file or directory
+]0;bhert@ecs-pa-coding1:~/csc60/lab2[bhert@ecs-pa-coding1 lab2]$ head -20 lab3[K2.c
+head: cannot open ‘lab2.c’ for reading: No such file or directory
+]0;bhert@ecs-pa-coding1:~/csc60/lab2[bhert@ecs-pa-coding1 lab2]$ tail lab2.c
+tail: cannot open ‘lab2.c’ for reading: No such file or directory
+]0;bhert@ecs-pa-coding1:~/csc60/lab2[bhert@ecs-pa-coding1 lab2]$ -20 lab2.c
+bash: -20: command not found
+]0;bhert@ecs-pa-coding1:~/csc60/lab2[bhert@ecs-pa-coding1 lab2]$ ls -al | less
+[?1049h[?1h=total 32
+drwxr-xr-x 3 bhert domain users  4096 Feb 28 15:47 .
+drwxr-xr-x 4 bhert domain users  4096 Feb 28 14:42 ..
+-rw-r--r-- 1 bhert domain users  8192 Feb 28 15:55 BrianHert_lab3.txt
+-rw------- 1 bhert domain users 12288 Feb 16 14:04 .lab2.c.swp
+drwxr-xr-x 3 bhert domain users  4096 Feb 28 15:52 lab3
+[7m(END)[27m[K[K[?1l>[?1049l]0;bhert@ecs-pa-coding1:~/csc60/lab2[bhert@ecs-pa-coding1 lab2]$ history
+    1  2023-02-28 16:06:26 cd csc60
+    2  2023-02-28 16:06:36 mkdir lab3
+    3  2023-02-28 16:06:40 cd lab3
+    4  2023-02-28 16:06:48 pwd
+    5  2023-02-28 16:07:03 cd ..
+    6  2023-02-28 16:07:06 pwd
+    7  2023-02-28 16:07:26 ls > file1
+    8  2023-02-28 16:07:30 cat file1
+    9  2023-02-28 16:07:51 less file1
+   10  2023-02-28 16:08:01 file *
+   11  2023-02-28 16:08:04 wc file1
+   12  2023-02-28 16:08:08 wc *
+   13  2023-02-28 16:08:16 grep file file1
+   14  2023-02-28 16:08:39 cp file file2
+   15  2023-02-28 16:08:41 ls
+   16  2023-02-28 16:08:45 cd aaa
+   17  2023-02-28 16:08:48 pwd
+   18  2023-02-28 16:08:56 cp ../file1
+   19  2023-02-28 16:09:12 cp ../file1.
+   20  2023-02-28 16:09:18 clear
+   21  2023-02-28 16:09:33 cp ../file1 .
+   22  2023-02-28 16:09:37 ls
+   23  2023-02-28 16:09:50 mv file1 file2
+   24  2023-02-28 16:09:56 ls
+   25  2023-02-28 16:10:08 mv ../file1 .
+   26  2023-02-28 16:10:15 cd ..
+   27  2023-02-28 16:10:22 ls
+   28  2023-02-28 16:11:11 cd aaa
+   29  2023-02-28 16:11:12 ls
+   30  2023-02-28 16:11:33 cmp file1 file2
+   31  2023-02-28 16:11:41 ls > aaalist
+   32  2023-02-28 16:11:50 cmp file1 aaalist
+   33  2023-02-28 16:11:59 diff file1 aaalist
+   34  2023-02-28 16:12:08 rm -i file1
+   35  2023-02-28 16:12:19 ls
+   36  2023-02-28 16:12:25 ps u
+   37  2023-02-28 16:12:31 ps -l
+   38  2023-02-28 16:12:50 cd ../..
+   39  2023-02-28 16:12:52 pwd
+   40  2023-02-28 16:13:00 cd lab2
+   41  2023-02-28 16:13:10 head lab2.c
+   42  2023-02-28 16:14:02 clear
+   43  2023-02-28 16:14:09 head lab2.c
+   44  2023-02-28 16:14:19 head -20 lab2.c
+   45  2023-02-28 16:14:30 tail lab2.c
+   46  2023-02-28 16:14:43 -20 lab2.c
+   47  2023-02-28 16:15:03 ls -al | less
+   48  2023-02-28 16:15:41 history
+]0;bhert@ecs-pa-coding1:~/csc60/lab2[bhert@ecs-pa-coding1 lab2]$ clear
+[3;J[H[2J]0;bhert@ecs-pa-coding1:~/csc60/lab2[bhert@ecs-pa-coding1 lab2]$ tail -20 lab2.c
+tail: cannot open ‘lab2.c’ for reading: No such file or directory
+]0;bhert@ecs-pa-coding1:~/csc60/lab2[bhert@ecs-pa-coding1 lab2]$ ls -al | less
+[?1049h[?1h=total 32
+drwxr-xr-x 3 bhert domain users  4096 Feb 28 15:47 .
+drwxr-xr-x 4 bhert domain users  4096 Feb 28 14:42 ..
+-rw-r--r-- 1 bhert domain users  8192 Feb 28 15:55 BrianHert_lab3.txt
+-rw------- 1 bhert domain users 12288 Feb 16 14:04 .lab2.c.swp
+drwxr-xr-x 3 bhert domain users  4096 Feb 28 15:52 lab3
+[7m(END)[27m[K[K[?1l>[?1049l]0;bhert@ecs-pa-coding1:~/csc60/lab2[bhert@ecs-pa-coding1 lab2]$ g[Khistory
+    1  2023-02-28 16:06:26 cd csc60
+    2  2023-02-28 16:06:36 mkdir lab3
+    3  2023-02-28 16:06:40 cd lab3
+    4  2023-02-28 16:06:48 pwd
+    5  2023-02-28 16:07:03 cd ..
+    6  2023-02-28 16:07:06 pwd
+    7  2023-02-28 16:07:26 ls > file1
+    8  2023-02-28 16:07:30 cat file1
+    9  2023-02-28 16:07:51 less file1
+   10  2023-02-28 16:08:01 file *
+   11  2023-02-28 16:08:04 wc file1
+   12  2023-02-28 16:08:08 wc *
+   13  2023-02-28 16:08:16 grep file file1
+   14  2023-02-28 16:08:39 cp file file2
+   15  2023-02-28 16:08:41 ls
+   16  2023-02-28 16:08:45 cd aaa
+   17  2023-02-28 16:08:48 pwd
+   18  2023-02-28 16:08:56 cp ../file1
+   19  2023-02-28 16:09:12 cp ../file1.
+   20  2023-02-28 16:09:18 clear
+   21  2023-02-28 16:09:33 cp ../file1 .
+   22  2023-02-28 16:09:37 ls
+   23  2023-02-28 16:09:50 mv file1 file2
+   24  2023-02-28 16:09:56 ls
+   25  2023-02-28 16:10:08 mv ../file1 .
+   26  2023-02-28 16:10:15 cd ..
+   27  2023-02-28 16:10:22 ls
+   28  2023-02-28 16:11:11 cd aaa
+   29  2023-02-28 16:11:12 ls
+   30  2023-02-28 16:11:33 cmp file1 file2
+   31  2023-02-28 16:11:41 ls > aaalist
+   32  2023-02-28 16:11:50 cmp file1 aaalist
+   33  2023-02-28 16:11:59 diff file1 aaalist
+   34  2023-02-28 16:12:08 rm -i file1
+   35  2023-02-28 16:12:19 ls
+   36  2023-02-28 16:12:25 ps u
+   37  2023-02-28 16:12:31 ps -l
+   38  2023-02-28 16:12:50 cd ../..
+   39  2023-02-28 16:12:52 pwd
+   40  2023-02-28 16:13:00 cd lab2
+   41  2023-02-28 16:13:10 head lab2.c
+   42  2023-02-28 16:14:02 clear
+   43  2023-02-28 16:14:09 head lab2.c
+   44  2023-02-28 16:14:19 head -20 lab2.c
+   45  2023-02-28 16:14:30 tail lab2.c
+   46  2023-02-28 16:14:43 -20 lab2.c
+   47  2023-02-28 16:15:03 ls -al

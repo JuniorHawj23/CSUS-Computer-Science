@@ -1,0 +1,156 @@
+Script started on Fri 19 May 2023 01:55:52 AM PDT
+]0;bhert@ecs-pa-coding1:~/csc60/lab10[?1034h[bhert@ecs-pa-coding1 lab10]$ clear./lab10[3Pmaketouch lab9_10.hscript lab10.txt[1Ptouch lab9_10.h
+]0;bhert@ecs-pa-coding1:~/csc60/lab10[bhert@ecs-pa-coding1 lab10]$ touch lab9_10.h[10Pclear./lab10[3Pmake
+gcc -c lab10.c -Wall
+gcc -c ParseCmd.c -Wall
+gcc -c ProcessExtCmd.c -Wall
+gcc -c RunExtCmd.c -Wall
+gcc lab10.o ParseCmd.o ProcessExtCmd.o Redirect.o RunExtCmd.o -o lab10
+]0;bhert@ecs-pa-coding1:~/csc60/lab10[bhert@ecs-pa-coding1 lab10]$ ./lab1o[K0
+
+csc60msh > ls > lsout
+Argc = 3 
+Argv 0 = ls 
+Argv 1 = > 
+Argv 2 = lsout 
+Child returned status: 0
+
+
+csc60msh > cat lsout
+Argc = 2 
+Argv 0 = cat 
+Argv 1 = lsout 
+file1
+lab10
+lab10.c
+lab10.o
+lab10.txt
+lab9_10.h
+lab9_lab10.h
+lsout
+makefile
+ParseCmd.c
+ParseCmd.o
+ProcessExtCmd.c
+ProcessExtCmd.o
+Redirect.c
+Redirect.o
+Run
+RunExtCmd.c
+RunExtCmd.o
+wcout
+Child returned status: 0
+
+
+csc60msh > ls > lsout > file1
+Argc = 5 
+Argv 0 = ls 
+Argv 1 = > 
+Argv 2 = lsout 
+Argv 3 = > 
+Argv 4 = file1 
+Cannot output to more than one file.
+Child returned status: 256
+
+
+csc60msh > catfoo    foo.txt
+Argc = 2 
+Argv 0 = cat 
+Argv 1 = foo.txt 
+cat: foo.txt: No such file or directory
+Child returned status: 256
+
+
+csc60msh > > lsout
+Argc = 2 
+Argv 0 = > 
+Argv 1 = lsout 
+No command entered.
+Child returned status: 256
+
+
+csc60msh > < lsout
+Argc = 2 
+Argv 0 = < 
+Argv 1 = lsout 
+No command entered.
+Child returned status: 256
+
+
+csc60msh > wc < lsout
+Argc = 3 
+Argv 0 = wc 
+Argv 1 = < 
+Argv 2 = lsout 
+ 19  19 186
+Child returned status: 0
+
+
+csc60msh > wc < lsout > wcout
+Argc = 5 
+Argv 0 = wc 
+Argv 1 = < 
+Argv 2 = lsout 
+Argv 3 = > 
+Argv 4 = wcout 
+Child returned status: 0
+
+
+csc60msh > cat wcout
+Argc = 2 
+Argv 0 = cat 
+Argv 1 = wcout 
+ 19  19 186
+Child returned status: 0
+
+
+csc60msh > wc < lsout < wcout
+Argc = 5 
+Argv 0 = wc 
+Argv 1 = < 
+Argv 2 = lsout 
+Argv 3 = < 
+Argv 4 = wcout 
+Cannot input to more than one file.
+Child returned status: 256
+
+
+csc60msh > cd ../lab2
+Argc = 2 
+Argv 0 = cd 
+Argv 1 = ../lab2 
+
+csc60msh > pwd
+Argc = 1 
+Argv 0 = pwd 
+
+The path is: /home/student/bhert/csc60/lab2
+csc60msh > gcc lab2.c
+Argc = 2 
+Argv 0 = gcc 
+Argv 1 = lab2.c 
+Child returned status: 0
+
+
+csc60msh > ./a.out
+Argc = 1 
+Argv 0 = ./a.out 
+
+Lab 2. 
+
+Hello World.
+Hi, Brian Hert. 
+
+Be Better Than You Were Yesterday. 
+-Lorenzo Snow
+
+Child returned status: 0
+
+
+csc60msh > exit
+Argc = 1 
+Argv 0 = exit 
+]0;bhert@ecs-pa-coding1:~/csc60/lab10[bhert@ecs-pa-coding1 lab10]$ exit
+exit
+
+Script done on Fri 19 May 2023 01:58:23 AM PDT
