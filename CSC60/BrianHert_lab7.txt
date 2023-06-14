@@ -1,0 +1,27 @@
+Script started on Fri 07 Apr 2023 10:48:14 PM PDT
+]0;bhert@ecs-pa-coding1:~/csc60/lab7[?1034h[bhert@ecs-pa-coding1 lab7]$ touch lab7.h
+]0;bhert@ecs-pa-coding1:~/csc60/lab7[bhert@ecs-pa-coding1 lab7]$ make
+gcc -c lab7.c
+gcc -c get_data.c
+gcc -c print_all.c
+gcc -c get_range_count.c        
+gcc lab7.o get_data.o print_all.o get_range_count.o -o range -lm
+]0;bhert@ecs-pa-coding1:~/csc60/lab7[bhert@ecs-pa-coding1 lab7]$ ./range
+
+Brian Hert.  Lab 7. 
+
+File lab7a.dat:  
+There are 12 values in the range of 90 through 99
+out of a total of 29 values.
+
+
+Brian Hert.  Lab 7. 
+
+File lab7b.dat:  
+There are 10 values in the range of 90 through 99
+out of a total of 29 values.
+
+]0;bhert@ecs-pa-coding1:~/csc60/lab7[bhert@ecs-pa-coding1 lab7]$ exit
+exit
+
+Script done on Fri 07 Apr 2023 10:48:30 PM PDT
