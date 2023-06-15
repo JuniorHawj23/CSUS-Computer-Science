@@ -1,6 +1,6 @@
 /*-------------------------------------------------------------------*/
 /* Brian Hert                                                        */ 
-/* Date: 4-23-2023                                                   */
+/* Date: 4-23-2023 & Lab 8                                           */
 /* Ruthann Biel                                                      */
 /* get_stats_me is a function to do figure the best throw for each   */
 /* thrower, compute the all-over average of the best throws, and     */
