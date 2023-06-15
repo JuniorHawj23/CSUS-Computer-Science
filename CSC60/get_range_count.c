@@ -1,5 +1,6 @@
 /*--------------------------------------------------------------*/
-// Brian Hert
+// Brian Hert     */
+// Date: 4-7-2023 */
 void get_range_count(int number_list[], int real_filesize, int *range_count) {
 
     *range_count = 0;
