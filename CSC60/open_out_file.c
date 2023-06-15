@@ -1,5 +1,6 @@
 /*----------------------------------------------------------*/
 /* Brian Hert                                               */
+/* Date: 4-23-2023                                          */
 /* This function will open the output file and return the   */
 /* file pointer name to the main program.                   */
 
