@@ -21,9 +21,9 @@ public class Songyourlastname {
       }
    }
    
-@SuppressWarnings("static-access")
-public static void main(String args[]) {
-    Songyourlastname s = new Songyourlastname();
-    s.lyrics();
+    @SuppressWarnings("static-access")
+    public static void main(String args[]) {
+        Songyourlastname s = new Songyourlastname();
+        s.lyrics();
    }
 }
