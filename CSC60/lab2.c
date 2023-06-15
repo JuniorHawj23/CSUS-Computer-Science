@@ -1,7 +1,7 @@
 /* --------------- */
 /* Brian Hert      */
 /* Lab 2           */ 
-/* Date: 3-28-2023 */
+/* Date: 2-16-2023 */
 
 #include <stdio.h>
 #include <stdlib.h>
