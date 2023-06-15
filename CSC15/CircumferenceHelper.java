@@ -12,7 +12,7 @@ public class CircumferenceHelper {
     // method that prompts user for 1 coordinates, and prints the circumference and radius between 2 set of points.
     public static void calculateOneCircumference() {
         // create a for loop to prompt the user for Cartesian coordinates 3 times.
-        for (int i = 0; i < 1; i++) {
+        for (int i=0; i<1; i++) {
             calculateCircumference();
         }
     }
