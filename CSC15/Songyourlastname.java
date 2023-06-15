@@ -14,16 +14,13 @@ public class Songyourlastname {
             System.out.println("Take one down and pass it around, no more bottles of juice on the wall.");
             System.out.println("Go to the store and buy some more, " + bottlesOnWall + " bottles of juice on the wall.");
          }
-         
-         else
-            System.out.println("Take one down and pass it around, " + (bottles - 1) + " bottles of juice on the wall.");
-            bottles--;
+         bottles--;     
       }
    }
-   
-    @SuppressWarnings("static-access")
-    public static void main(String args[]) {
-        Songyourlastname s = new Songyourlastname();
-        s.lyrics();
+         
+   @SuppressWarnings("static-access")
+   public static void main(String args[]) {
+      Songyourlastname s = new Songyourlastname();
+      s.lyrics();
    }
-}
+}   
