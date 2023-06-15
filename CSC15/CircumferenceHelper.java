@@ -20,7 +20,7 @@ public class CircumferenceHelper {
     @SuppressWarnings("resource")
 	public static void calculateCircumference() {
         // CREATE A SCANNER OBJ
-		Scanner scanner = new Scanner(System.in);     
+	Scanner scanner = new Scanner(System.in);     
 
         // GET THE FIRST SET OF COORDINATE POINTS
         System.out.print("Please enter integer input for Point 1: x1 ");
