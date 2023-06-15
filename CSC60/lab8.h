@@ -1,5 +1,6 @@
 /*  Brian Hert                              */
 /*  lab8.h - Olympic woman's javelin throw  */  
+/* 4-23-2023                                */
 
 #define NCOMPETITORS 4
 #define N_TRIES 4
