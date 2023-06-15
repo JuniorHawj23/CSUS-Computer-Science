@@ -2,6 +2,7 @@
 /* Brian Hert                                 */
 /* Lab 5                                      */
 /* Figure the area of a parabola using files  */
+/* Date: 3-14-2023                            */
 
 #include <stdio.h>
 #include <stdlib.h>
