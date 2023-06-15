@@ -1,3 +1,5 @@
+package Brian;
+
 public class Songyourlastname {    
     public static final int COOL_BOTTLES = 10;  // Class constant
     
@@ -18,7 +20,8 @@ public class Songyourlastname {
             bottles--;
       }
    }
-         
+   
+   @SuppressWarnings("static-access")
    public static void main(String args[]) {
       Songyourlastname s = new Songyourlastname();
       s.lyrics();
