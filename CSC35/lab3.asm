@@ -7,19 +7,14 @@
 
 Title:
 	.ascii "Welcome to my restaurant\n\0"
-
 Order:
 	.ascii "What is your order?\n\0"
-
 Selected:
 	.ascii "You selected:\n\0"
-
 Bill:
 	.ascii "How many knuts are you feeding it?\n\0" 
-
 Change:
 	.ascii " knuts is your change.\n\0"
-
 Space:
 	.ascii "\n\0"
 
@@ -27,13 +22,10 @@ Space:
 
 Option1:
 	.ascii "1. Bertie Bott's Every Flavor Sliders (23 knuts)\n\0"      
-
 Option2:
 	.ascii "2. Cauldron Cakes (37 knuts)\n\0"
-
 Option3:
 	.ascii "3. Pumpkin Pasties (74 knuts)\n\0"
-
 Option4:
 	.ascii "4. Cancel the order (0 knuts)\n\0"
 Option5:
@@ -71,7 +63,6 @@ ItemsLoop:
 	mov rdx, [Items + rsi * 8]
 	call PrintZString
 	add rsi, 1
-
 
 Continue:
 	# Print the menu for the user to select
