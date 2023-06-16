@@ -1,10 +1,9 @@
 package Brian;
 
 public class Songyourlastname {    
-    public static final int COOL_BOTTLES = 10;  // Class constant
     
     public static void lyrics() {               // lyrics() method for displaying lyrics of the song
-      int bottles = COOL_BOTTLES;               // Variable to store no of bottles since class constant can't be modified
+      int bottles = 10;                         // Variable to store no of bottles since class constant can't be modified
       int bottlesOnWall = bottles - 1;          // Variable to store no of bottles after buying from the store
          
          for(int i = bottles; i > 0; i--) {            
@@ -18,9 +17,7 @@ public class Songyourlastname {
       }
    }
          
-   @SuppressWarnings("static-access")
    public static void main(String args[]) {
-      Songyourlastname s = new Songyourlastname();
-      s.lyrics();
+      lyrics();
    }
 }   
