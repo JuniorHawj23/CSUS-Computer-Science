@@ -7,13 +7,10 @@
 
 Bill:
         .ascii "\nHow much, in knuts, was the bill?\n\0"
-
 Splitting:
         .ascii "\nHow many people are splitting the bill?\n\0"
-
 Witches:
         .ascii "\nOkay, witches and wizards, give \0"
-
 Wizards:
 	.ascii " knuts each.\n\n\0"
 
@@ -51,7 +48,3 @@ Continue:
 	call PrintZString
 
 call Exit
-
-
-
-
