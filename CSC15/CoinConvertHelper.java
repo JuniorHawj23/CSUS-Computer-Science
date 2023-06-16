@@ -28,7 +28,7 @@ public class CoinConvertHelper {
 
         // GETTING FEE VALUES
         int newVal = (int) feesTotal;
-        int pennyFees= (newVal % 100);
+        int pennyFees = (newVal % 100);
         int dollarFees = (newVal / 100);
 
         // CALCULATING THE 10% FEE
