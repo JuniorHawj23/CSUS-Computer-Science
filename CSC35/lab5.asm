@@ -10,7 +10,6 @@ Title:
 
 Question1:
 	.ascii "\nDo you wish to command others (y/n)\n\0"
-
 Question2:
 	.ascii "\nDo you find contentment in reading (y/n)?\n\0"
 
