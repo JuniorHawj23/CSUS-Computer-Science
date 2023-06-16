@@ -1,6 +1,6 @@
 package Brian;
 	
-class PadStringMain {	
+public class PadStringMain {	
     @SuppressWarnings("static-access")
 	public static void main(String[] arg) {
         PadStringHelper helper = new PadStringHelper();
