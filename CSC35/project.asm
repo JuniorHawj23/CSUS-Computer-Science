@@ -981,4 +981,3 @@ Done:
 	lea rdx, Art1			# Print the cool looking Charizard 
 	call PrintZString
         call Exit
-
