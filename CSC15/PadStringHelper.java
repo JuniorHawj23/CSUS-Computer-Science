@@ -1,3 +1,5 @@
+package Brian;
+
 import java.util.Scanner;
 
 public class PadStringHelper {
