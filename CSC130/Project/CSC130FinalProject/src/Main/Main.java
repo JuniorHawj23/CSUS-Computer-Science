@@ -34,7 +34,6 @@ public class Main{
 	public static HashMap<String, String> text = new HashMap<>();
 	public static String displayText = "";
 	public static String inBorders;
-	
 			
 	// End Static fields...
 	
@@ -111,8 +110,7 @@ public class Main{
 					brian.setTag(movement+1);
 				}
 				timer.resetWatch();
-			}	
-			     
+			}			     
 	}
 	
 	// Return -1 if the integer is equal to 0 
@@ -135,7 +133,6 @@ public class Main{
             }
         return -1;
 	}
-
 	
 	// This is to display the text onto the screen when the character encounter a object
 	public static void displayText() {
@@ -161,6 +158,5 @@ public class Main{
             	displayText = text.get("star");
             }
         }	
-	}
+    }
 }
-
