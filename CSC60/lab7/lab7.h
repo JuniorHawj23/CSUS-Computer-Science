@@ -21,4 +21,3 @@ void get_range_count(int number_list[],     /* input, array that holds data   */
 void print_all(	const char *filename,  /* input, the current filename    */
 		int real_filesize,     /* input, actual size of the data */
 		int *range_count);     /* input, # of values in range    */
-
