@@ -1,20 +1,11 @@
-# Brian Hert Lab 10 part 2
+# Brian Hert Lab 9 part 1
 
 CC = gcc
-lab10: lab10.o ParseCmd.o ProcessExtCmd.o Redirect.o RunExtCmd.o
-	gcc lab10.o ParseCmd.o ProcessExtCmd.o Redirect.o RunExtCmd.o -o lab10
+lab9: lab9.o ParseCmd.o
+	gcc lab9.o ParseCmd.o -o lab9
 	
-lab10.o: lab10.c lab9_10.h
-	gcc -c lab10.c -Wall
+lab9.o: lab9.c lab9_10.h
+	gcc -c lab9.c
 	
 ParseCmd.o: ParseCmd.c lab9_10.h
-	gcc -c ParseCmd.c -Wall
-	
-ProcessExtCmd.o: ProcessExtCmd.c lab9_10.h
-	gcc -c ProcessExtCmd.c -Wall
-	
-Redirct.o: Redirect.c lab9_10.h
-	gcc -c Redirect.c -Wall
-	
-RunExtCmd.o: RunExtCmd.c lab9_10.h
-	gcc -c RunExtCmd.c -Wall
+	gcc -c ParseCmd.c
