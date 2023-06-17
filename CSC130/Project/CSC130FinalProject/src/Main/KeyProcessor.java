@@ -76,7 +76,6 @@ public class KeyProcessor{
 		if (check == 0){
 			Main.brian.getCoords().adjustX(-x);
 			Main.brian.getCoords().adjustY(-y);
-		}
-		
+		}	
 	}
 }
