@@ -1,20 +1,11 @@
-# Brian Hert Lab 10 part 2
+# Brian Hert lab 7
+// Date: 4-7-2023
 
-CC = gcc
-lab10: lab10.o ParseCmd.o ProcessExtCmd.o Redirect.o RunExtCmd.o
-	gcc lab10.o ParseCmd.o ProcessExtCmd.o Redirect.o RunExtCmd.o -o lab10
-	
-lab10.o: lab10.c lab9_10.h
-	gcc -c lab10.c -Wall
-	
-ParseCmd.o: ParseCmd.c lab9_10.h
-	gcc -c ParseCmd.c -Wall
-	
-ProcessExtCmd.o: ProcessExtCmd.c lab9_10.h
-	gcc -c ProcessExtCmd.c -Wall
-	
-Redirct.o: Redirect.c lab9_10.h
-	gcc -c Redirect.c -Wall
-	
-RunExtCmd.o: RunExtCmd.c lab9_10.h
-	gcc -c RunExtCmd.c -Wall
+lab7: lab7.o get_range_count.o
+	gcc lab7.o get_range_count.o -o lab7 -lm
+
+lab7.o: lab7.c lab7.h
+	gcc -c lab7.c
+
+get_range_count.o: get_range_count.c lab7.h
+	gcc -c get_range_count.c 
