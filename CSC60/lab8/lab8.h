@@ -34,7 +34,7 @@ typedef struct {
 
 /* FUNCTION PROTOTYPES */
 /* get_data is a function to get and read data */
-void get_data (char *filename,                              /* input  */ 
+void get_data (char *filename,                                      /* input  */ 
         thrower_t throw_list[NCOMPETITORS]);                        /* output */
 
 /* open_out_file is a function to open the output file */
@@ -47,7 +47,7 @@ FILE * open_out_file (void);
 // print_all is a function to print things out.
 
 void get_stats(thrower_t throw_list[NCOMPETITORS],        /* in & out */
-        stats_t *throw_stats);                        /* output   */
+        stats_t *throw_stats);                            /* output   */
 
 void print_all(FILE * out_file, 
         thrower_t throw_list[NCOMPETITORS],
