@@ -1,7 +1,7 @@
 # Brian Hert Lab 9 part 1
 
 CC = gcc
-lab9: lab9.o ParseCmd.o
+lab9: lab9.o ParseCmd.o lab9.c
 	gcc lab9.o ParseCmd.o -o lab9
 	
 lab9.o: lab9.c lab9_10.h
