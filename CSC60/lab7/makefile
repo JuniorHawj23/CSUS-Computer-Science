@@ -15,4 +15,3 @@ print_all.o: print_all.c lab7.h
 
 get_range_count.o: get_range_count.c lab7.h
 	gcc -c get_range_count.c        
-	
