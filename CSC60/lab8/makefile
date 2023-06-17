@@ -1,20 +1,22 @@
-# Brian Hert Lab 10 part 2
+# Brian Hert Lab 8 Structs
+# You need to add the code here for get_stats.c
+// Date: 4-23-2023
 
 CC = gcc
-lab10: lab10.o ParseCmd.o ProcessExtCmd.o Redirect.o RunExtCmd.o
-	gcc lab10.o ParseCmd.o ProcessExtCmd.o Redirect.o RunExtCmd.o -o lab10
+lab8: lab8.o get_data.o open_out_file.o print_all.o get_stats.o lab8.h
+	gcc lab8.o get_data.o open_out_file.o print_all.o get_stats.o -o lab8 
+   
+lab8.o: lab8.c lab8.h
+	gcc -c lab8.c 
 	
-lab10.o: lab10.c lab9_10.h
-	gcc -c lab10.c -Wall
+get_data.o: get_data.c lab8.h	
+	gcc -c get_data.c
 	
-ParseCmd.o: ParseCmd.c lab9_10.h
-	gcc -c ParseCmd.c -Wall
+open_out_file.o: open_out_file.c lab8.h
+	gcc -c open_out_file.c
 	
-ProcessExtCmd.o: ProcessExtCmd.c lab9_10.h
-	gcc -c ProcessExtCmd.c -Wall
+print_all.o: print_all.c lab8.h
+	gcc -c print_all.c
 	
-Redirct.o: Redirect.c lab9_10.h
-	gcc -c Redirect.c -Wall
-	
-RunExtCmd.o: RunExtCmd.c lab9_10.h
-	gcc -c RunExtCmd.c -Wall
+get_stats.o: get_stats.c lab8.h
+	gcc -c get_stats.c
