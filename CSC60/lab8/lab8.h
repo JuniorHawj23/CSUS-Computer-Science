@@ -31,7 +31,6 @@ typedef struct {
     double winning_throw;
 }stats_t; 
 
-
 /* FUNCTION PROTOTYPES */
 /* get_data is a function to get and read data */
 void get_data (char *filename,                                      /* input  */ 
