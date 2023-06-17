@@ -1,5 +1,6 @@
 /*-------------------------------------------------------------*/
 /* This function will print all but your name (which is above) */
+/* Date: 4-7-2023 & Lab 7                                      */
 
 #include "lab7.h"
 
