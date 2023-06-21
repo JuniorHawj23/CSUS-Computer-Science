@@ -3,7 +3,6 @@ import java.awt.event.*;
 import java.util.*;
 import javax.swing.*;
 
-@SuppressWarnings("serial")
 public class GamePanel extends JPanel implements Runnable {
 	
 	static final int GAME_WIDTH = 1000;
