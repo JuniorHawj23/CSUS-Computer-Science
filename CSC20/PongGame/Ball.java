@@ -1,7 +1,6 @@
 import java.awt.*;
 import java.util.*;
 
-@SuppressWarnings("serial")
 public class Ball extends Rectangle {
 	
 	Random random;
