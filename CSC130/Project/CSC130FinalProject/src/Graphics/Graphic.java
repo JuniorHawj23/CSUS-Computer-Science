@@ -23,7 +23,6 @@ import javax.swing.JOptionPane;
 
 import FileIO.EZFileWrite;
 
-@SuppressWarnings("serial")
 public class Graphic extends JFrame{
 	// Fields
 	private GraphicsDevice gd;
