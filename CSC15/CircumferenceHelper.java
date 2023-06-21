@@ -17,7 +17,6 @@ public class CircumferenceHelper {
         }
     }
 
-    @SuppressWarnings("resource")
 	public static void calculateCircumference() {
         // CREATE A SCANNER OBJ
 	Scanner scanner = new Scanner(System.in);     
