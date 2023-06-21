@@ -4,6 +4,5 @@ public class PongGame {
 		
 		@SuppressWarnings("unused")
 		GameFrame frame = new GameFrame();
-
 	}
 }
