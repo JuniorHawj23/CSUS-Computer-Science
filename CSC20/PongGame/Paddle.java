@@ -1,8 +1,6 @@
 import java.awt.*;
 import java.awt.event.*;
 
-
-@SuppressWarnings("serial")
 public class Paddle extends Rectangle {
 	
 	int id;
