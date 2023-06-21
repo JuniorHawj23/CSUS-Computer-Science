@@ -1,6 +1,5 @@
 import java.awt.*;
 
-@SuppressWarnings("serial")
 public class Score extends Rectangle {
 
 	static int GAME_WIDTH;
