@@ -3,7 +3,7 @@ package Main;
 import java.awt.Color;
 import logic.Control;
 
-public class Main{
+public class Main {
 	// Fields (Static) below...
 	
 	public static Color c = new Color(255, 0, 0);
@@ -16,7 +16,7 @@ public class Main{
 	}
 	
 	/* This is your access to things BEFORE the game loop starts */
-	public static void start(){
+	public static void start() {
 		// TODO: Code your starting conditions here...NOT DRAW CALLS HERE! (no addSprite or drawString)
 		
 	}
