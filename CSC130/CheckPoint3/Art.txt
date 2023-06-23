@@ -1,0 +1,4 @@
+Art/Walk1.png*Walk1
+Art/Walk2.png*Walk2
+Art/Walk3.png*Walk3
+Art/Walk4.png*Walk4
