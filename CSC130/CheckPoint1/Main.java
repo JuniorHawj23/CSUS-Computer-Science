@@ -12,7 +12,7 @@ public class Main{
 	
 	public static void main(String[] args) {
 		Control ctrl = new Control();				// Do NOT remove!
-		ctrl.gameLoop();							// Do NOT remove!
+		ctrl.gameLoop();					// Do NOT remove!
 	}
 	
 	/* This is your access to things BEFORE the game loop starts */
