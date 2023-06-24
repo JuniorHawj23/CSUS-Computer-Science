@@ -1,0 +1,5 @@
+String1*Brian: "Hello, my name is Brian"
+String2*Brian: "Seems like a good day to go running."
+String3*Brian: "I will go get my shoes in my car."
+String4*Brian: "My shoes isn't here."
+String5*Brian: "Oh it must be at my house."
