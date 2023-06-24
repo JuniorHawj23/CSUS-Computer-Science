@@ -1,5 +1,16 @@
 package Brian;
 
+/*
+ * Name: Brian Hert
+ * Date: 6 / 26 / 2020
+ * Project:RecursiveProgram
+ * Project Description: This program contains two methods. One accepts an integer
+ * and returns the integer stripped of all odd digits. The second accepts an integer array
+ * and returns true if it is a palindrome or false if it is not.
+ * The output is put to the console. The requirements are the Arrays class from the java.util
+ * library used for slicing and printing the integer arrays. 
+ */
+
 import java.util.Arrays;
 
 public class RecursiveProgram {
