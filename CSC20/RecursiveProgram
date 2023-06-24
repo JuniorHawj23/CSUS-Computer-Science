@@ -34,7 +34,6 @@ public class RecursiveProgram {
 		}
 	}
 	
-	
 	// main method begin
 	public static void main(String[] args) {
 		
