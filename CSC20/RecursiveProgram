@@ -1,8 +1,10 @@
 package Brian;
 
+import java.util.Arrays;
+
 /*
  * Name: Brian Hert
- * Date: 6 / 26 / 2020
+ * Date: 6/26/2020
  * Project:RecursiveProgram
  * Project Description: This program contains two methods. One accepts an integer
  * and returns the integer stripped of all odd digits. The second accepts an integer array
@@ -10,8 +12,6 @@ package Brian;
  * The output is put to the console. The requirements are the Arrays class from the java.util
  * library used for slicing and printing the integer arrays. 
  */
-
-import java.util.Arrays;
 
 public class RecursiveProgram {
 
