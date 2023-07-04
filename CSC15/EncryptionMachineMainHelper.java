@@ -48,8 +48,7 @@ public class EncryptionMachineHelper {
 			String encryptedWord = encryptWord(plainWord);
 			
 			// display a message to the user showing plain text word and encrypted word
-			displayBanner(plainWord, encryptedWord);
-			
+			displayBanner(plainWord, encryptedWord);	
 		}
 		System.out.println("Message fully encrypted. Happy secret messaging!");
 	}
@@ -58,7 +57,6 @@ public class EncryptionMachineHelper {
 	// encrypts a single letter
 	public static char encryptLetter(char letter) {
 		// plaintext letter
-		
 		int originalCharIndex = ALPHABET.indexOf(letter);
 		
 		// use module to find index backwards
@@ -85,7 +83,6 @@ public class EncryptionMachineHelper {
 			char newLetter = encryptLetter(letter);
 			encryptedWord += newLetter;
 		}
-		
 		// return the encrypted word in assignment doc. 
 		return encryptedWord;
 	}
@@ -133,7 +130,6 @@ public class EncryptionMachineHelper {
 		// give a brief description of what the program does to the user 
 		System.out.println("Welcome to the CSC 15 Encryption Machine\nThe Program lets you encrypt a message");
 		System.out.println("with a key for your recipient to decrypt!\n");
-		
 		System.out.println("Encrypted messages use a shared keyword to decrypt.");
 	}
 }
