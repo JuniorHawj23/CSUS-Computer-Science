@@ -7,7 +7,7 @@ package Brian;
 
 import java.util.Scanner;
 
-public class EncryptionMachineMainHelper {
+public class EncryptionMachineHelper {
 	
 	// CONSTANTS
 	public static final String ALPHABET = "abcdefghijklmnopqrstuv";
