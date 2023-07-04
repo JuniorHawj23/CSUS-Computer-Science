@@ -29,10 +29,8 @@ public class MultipleChoice {
 			
 			if(answers[i].equalsIgnoreCase(responses[i])) {
 			score++;
-			
 			}
 		}
-		
 		System.out.println("Your score is " +score+ "/2");
 	}
 }
