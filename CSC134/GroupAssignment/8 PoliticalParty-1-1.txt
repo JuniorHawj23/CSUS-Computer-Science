@@ -1,4 +1,4 @@
-// Data File for group assignments from this point forward (Put last name prefix, Copy, paste into SQL Developer and run code)
+// Data File for group assignments from this point forward 9 or above (Put last name prefix, Copy, paste into SQL Developer and run code)
 drop sequence salary;
 drop table candidate;
 drop table party;
