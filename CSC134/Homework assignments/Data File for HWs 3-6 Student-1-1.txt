@@ -1,4 +1,4 @@
-
+// Data File For Homework to be used for HWs 3-6 (Put lastname prefix, Copy, paste into SQL Developer and run code)
 drop table student_class;
 drop table student;
 drop table class;
