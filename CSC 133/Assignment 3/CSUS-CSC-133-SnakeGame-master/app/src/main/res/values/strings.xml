@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SGame</string>
+    <string name="tap_to_play">Tap to Play!</string>
+    <string name="Game_Paused">Game Paused</string>
+</resources>
