@@ -26,14 +26,14 @@ void *worst_fit(size_t size);               // Finds the worst-fitting block for
 void *first_fit(size_t size);               // Finds the first fitting block for allocation
 void *next_fit(size_t size);                // Finds a fitting block using the NEXT_FIT strategy
 void *locate_fit(size_t size);              // Finds a suitable block of memory based on the selected algorithm
-void coalesce_available_blocks();                // Combines adjacent free blocks to reduce fragmentation
+void coalesce_available_blocks();           // Combines adjacent free blocks to reduce fragmentation
 void add_to_free_list(node_t *node);        // Adds a block to the free list
 void delete_from_free_list(node_t *node);   // Removes a block from the free list
 int locate_in_free_list(void *ptr);         // Checks if a given pointer is in the free list
 
 // Global variables
-int entire_allocations = 0;                  // Total number of allocations made
-int entire_deallocations = 0;                // Total number of deallocations made
+int entire_allocations = 0;                 // Total number of allocations made
+int entire_deallocations = 0;               // Total number of deallocations made
 int allocation_algorithm = 0;               // Selected allocation algorithm (BEST_FIT, WORST_FIT, FIRST_FIT, NEXT_FIT)
 void *umem_begin = NULL;                    // Start of the memory region allocated by mmap
 void *umem_end = NULL;                      // End of the memory region
