@@ -1,324 +1,0 @@
-Script started on 2025-01-31 00:02:16-08:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="104" LINES="29"]
-[0;32m-[0m[0;90m[[0;36mspede[0;90m][0m [0;33m~/Desktop/phase0-BrianHert/02-debugging[0m [0;31m{main *%>}[0m
-[0;90m00:02:16[0m $ done
-bash: syntax error near unexpected token `done'
-[0;31m![0m[0;90m[[0;36mspede[0;90m][0m [0;33m~/Desktop/phase0-BrianHert/02-debugging[0m [0;31m{main *%>}[0m
-[0;90m00:02:19[0m $ [K[0;90m00:02:19[0m $ [K[0;90m00:02:19[0m $ [K[0;90m00:02:19[0m $ [K[0;90m00:02:19[0m $ mk[Kake
-Done linking "build/MyOS.dli" (with GDB enabled) at 1m.
-[0;32m-[0m[0;90m[[0;36mspede[0;90m][0m [0;33m~/Desktop/phase0-BrianHert/02-debugging[0m [0;31m{main *%>}[0m
-[0;90m00:03:09[0m $ s[Kspede-target
-Launching SPEDE target to run in the background
-[0;32m-[0m[0;90m[[0;36mspede[0;90m][0m [0;33m~/Desktop/phase0-BrianHert/02-debugging[0m [0;31m{main *%>}[0m
-[0;90m00:03:16[0m $ spede-run -d
-The SPEDE Target will be reset, are you sure? (y/n) y
-Resetting the SPEDE Target...
-Downloading image 'build/MyOS.dli' to SPEDE Target via /dev/pts/2...
-File type is 'ELF'
-Total blocks to download:  0x83  (128 bytes each)
-
-???Now have attention of monitor...No of Blocks Downloaded : 0x2 No of Blocks Downloaded : 0x3 No of Blocks Downloaded : 0x4 No of Blocks Downloaded : 0x5 No of Blocks Downloaded : 0x6 No of Blocks Downloaded : 0x7 No of Blocks Downloaded : 0x8 No of Blocks Downloaded : 0x9 No of Blocks Downloaded : 0xa No of Blocks Downloaded : 0xb No of Blocks Downloaded : 0xc No of Blocks Downloaded : 0xd No of Blocks Downloaded : 0xe No of Blocks Downloaded : 0xf No of Blocks Downloaded : 0x10 No of Blocks Downloaded : 0x11 No of Blocks Downloaded : 0x12 No of Blocks Downloaded : 0x13 No of Blocks Downloaded : 0x14 No of Blocks Downloaded : 0x15 No of Blocks Downloaded : 0x16 No of Blocks Downloaded : 0x17 No of Blocks Downloaded : 0x18 No of Blocks Downloaded : 0x19 No of Blocks Downloaded : 0x1a No of Blocks Downloaded : 0x1b No of Blocks Downloaded : 0x1c No of Blocks Downloaded : 0x1d No of Blocks Downloaded : 0x1e No of Blocks Downloaded : 0x1f No of Blocks Downloaded : 0x20 No of Blocks Downloaded : 0x21 No of Blocks Downloaded : 0x22 No of Blocks Downloaded : 0x23 No of Blocks Downloaded : 0x24 No of Blocks Downloaded : 0x25 No of Blocks Downloaded : 0x26 No of Blocks Downloaded : 0x27 No of Blocks Downloaded : 0x28 No of Blocks Downloaded : 0x29 No of Blocks Downloaded : 0x2a No of Blocks Downloaded : 0x2b No of Blocks Downloaded : 0x2c No of Blocks Downloaded : 0x2d No of Blocks Downloaded : 0x2e No of Blocks Downloaded : 0x2f No of Blocks Downloaded : 0x30 No of Blocks Downloaded : 0x31 No of Blocks Downloaded : 0x32 No of Blocks Downloaded : 0x33 No of Blocks Downloaded : 0x34 No of Blocks Downloaded : 0x35 No of Blocks Downloaded : 0x36 No of Blocks Downloaded : 0x37 No of Blocks Downloaded : 0x38 No of Blocks Downloaded : 0x39 No of Blocks Downloaded : 0x3a No of Blocks Downloaded : 0x3b No of Blocks Downloaded : 0x3c No of Blocks Downloaded : 0x3d No of Blocks Downloaded : 0x3e No of Blocks Downloaded : 0x3f No of Blocks Downloaded : 0x40 No of Blocks Downloaded : 0x41 No of Blocks Downloaded : 0x42 No of Blocks Downloaded : 0x43 No of Blocks Downloaded : 0x44 No of Blocks Downloaded : 0x45 No of Blocks Downloaded : 0x46 No of Blocks Downloaded : 0x47 No of Blocks Downloaded : 0x48 No of Blocks Downloaded : 0x49 No of Blocks Downloaded : 0x4a No of Blocks Downloaded : 0x4b No of Blocks Downloaded : 0x4c No of Blocks Downloaded : 0x4d No of Blocks Downloaded : 0x4e No of Blocks Downloaded : 0x4f No of Blocks Downloaded : 0x50 No of Blocks Downloaded : 0x51 No of Blocks Downloaded : 0x52 No of Blocks Downloaded : 0x53 No of Blocks Downloaded : 0x54 No of Blocks Downloaded : 0x55 No of Blocks Downloaded : 0x56 No of Blocks Downloaded : 0x57 No of Blocks Downloaded : 0x58 No of Blocks Downloaded : 0x59 No of Blocks Downloaded : 0x5a No of Blocks Downloaded : 0x5b No of Blocks Downloaded : 0x5c No of Blocks Downloaded : 0x5d No of Blocks Downloaded : 0x5e No of Blocks Downloaded : 0x5f No of Blocks Downloaded : 0x60 No of Blocks Downloaded : 0x61 No of Blocks Downloaded : 0x62 No of Blocks Downloaded : 0x63 No of Blocks Downloaded : 0x64 No of Blocks Downloaded : 0x65 No of Blocks Downloaded : 0x66 No of Blocks Downloaded : 0x67 No of Blocks Downloaded : 0x68 No of Blocks Downloaded : 0x69 No of Blocks Downloaded : 0x6a No of Blocks Downloaded : 0x6b No of Blocks Downloaded : 0x6c No of Blocks Downloaded : 0x6d No of Blocks Downloaded : 0x6e No of Blocks Downloaded : 0x6f No of Blocks Downloaded : 0x70 No of Blocks Downloaded : 0x71 No of Blocks Downloaded : 0x72 No of Blocks Downloaded : 0x73 No of Blocks Downloaded : 0x74 No of Blocks Downloaded : 0x75 No of Blocks Downloaded : 0x76 No of Blocks Downloaded : 0x77 No of Blocks Downloaded : 0x78 No of Blocks Downloaded : 0x79 No of Blocks Downloaded : 0x7a No of Blocks Downloaded : 0x7b No of Blocks Downloaded : 0x7c No of Blocks Downloaded : 0x7d No of Blocks Downloaded : 0x7e No of Blocks Downloaded : 0x7f No of Blocks Downloaded : 0x80 No of Blocks Downloaded : 0x81 No of Blocks Downloaded : 0x82 No of Blocks Downloaded : 0x83 No of Blocks Downloaded : 0x84 Load Successful ; Code loaded at 0x0x101000 (1294 bytes/sec)
-Executing the image 'build/MyOS.dli' on the SPEDE Target with GDB Enabled
-Launching GDB...
-Reading symbols from [32mbuild/MyOS.dli[m...
-Expanding full symbols from [32mbuild/MyOS.dli[m...
-Remote debugging using /dev/pts/2
-[34m0x001026a1[m in [33mbreakpoint[m ()
-Temporary breakpoint 1 at [34m0x101221[m: file [32msrc/main.c[m, line 45.
-
-Temporary breakpoint 1, [33mmain[m () at [32msrc/main.c[m:45
-45	    [36mchar[39;49;00m buf[[34m128[39;49;00m] = {[34m0[39;49;00m};
-[?2004h[31mSPEDE GDB$ [0m[7mspede-run -d[27m[1Pspede-run -[K[K[K[K[K[K[K[K[K[K[K[7mcontinue[27mcontinue
-[?2004lContinuing.
-Hello, world!
-Welcome to MyOS!
-The buffer size is 17 bytes
-CPE/CSC 159 for Spring/Fall 1970 will be fun!
-[Inferior 1 (Remote target) exited normally]
-[?2004h[?2004l[?2004h[31mSPEDE GDB$ [0mexit
-[?2004l[0;32m-[0m[0;90m[[0;36mspede[0;90m][0m [0;33m~/Desktop/phase0-BrianHert/02-debugging[0m [0;31m{main *%>}[0m
-[0;90m00:04:48[0m $ clear
-[H[2J[3J[0;32m-[0m[0;90m[[0;36mspede[0;90m][0m [0;33m~/Desktop/phase0-BrianHert/02-debugging[0m [0;31m{main *%>}[0m
-[0;90m00:04:59[0m $ spede-target
-Launching SPEDE target to run in the background
-[0;32m-[0m[0;90m[[0;36mspede[0;90m][0m [0;33m~/Desktop/phase0-BrianHert/02-debugging[0m [0;31m{main *%>}[0m
-[0;90m00:05:05[0m $ spede-run -d
-The SPEDE Target will be reset, are you sure? (y/n) y
-Resetting the SPEDE Target...
-Downloading image 'build/MyOS.dli' to SPEDE Target via /dev/pts/2...
-File type is 'ELF'
-Total blocks to download:  0x83  (128 bytes each)
-
-??Now have attention of monitor...No of Blocks Downloaded : 0x2 No of Blocks Downloaded : 0x3 No of Blocks Downloaded : 0x4 No of Blocks Downloaded : 0x5 No of Blocks Downloaded : 0x6 No of Blocks Downloaded : 0x7 No of Blocks Downloaded : 0x8 No of Blocks Downloaded : 0x9 No of Blocks Downloaded : 0xa No of Blocks Downloaded : 0xb No of Blocks Downloaded : 0xc No of Blocks Downloaded : 0xd No of Blocks Downloaded : 0xe No of Blocks Downloaded : 0xf No of Blocks Downloaded : 0x10 No of Blocks Downloaded : 0x11 No of Blocks Downloaded : 0x12 No of Blocks Downloaded : 0x13 No of Blocks Downloaded : 0x14 No of Blocks Downloaded : 0x15 No of Blocks Downloaded : 0x16 No of Blocks Downloaded : 0x17 No of Blocks Downloaded : 0x18 No of Blocks Downloaded : 0x19 No of Blocks Downloaded : 0x1a No of Blocks Downloaded : 0x1b No of Blocks Downloaded : 0x1c No of Blocks Downloaded : 0x1d No of Blocks Downloaded : 0x1e No of Blocks Downloaded : 0x1f No of Blocks Downloaded : 0x20 No of Blocks Downloaded : 0x21 No of Blocks Downloaded : 0x22 No of Blocks Downloaded : 0x23 No of Blocks Downloaded : 0x24 No of Blocks Downloaded : 0x25 No of Blocks Downloaded : 0x26 No of Blocks Downloaded : 0x27 No of Blocks Downloaded : 0x28 No of Blocks Downloaded : 0x29 No of Blocks Downloaded : 0x2a No of Blocks Downloaded : 0x2b No of Blocks Downloaded : 0x2c No of Blocks Downloaded : 0x2d No of Blocks Downloaded : 0x2e No of Blocks Downloaded : 0x2f No of Blocks Downloaded : 0x30 No of Blocks Downloaded : 0x31 No of Blocks Downloaded : 0x32 No of Blocks Downloaded : 0x33 No of Blocks Downloaded : 0x34 No of Blocks Downloaded : 0x35 No of Blocks Downloaded : 0x36 No of Blocks Downloaded : 0x37 No of Blocks Downloaded : 0x38 No of Blocks Downloaded : 0x39 No of Blocks Downloaded : 0x3a No of Blocks Downloaded : 0x3b No of Blocks Downloaded : 0x3c No of Blocks Downloaded : 0x3d No of Blocks Downloaded : 0x3e No of Blocks Downloaded : 0x3f No of Blocks Downloaded : 0x40 No of Blocks Downloaded : 0x41 No of Blocks Downloaded : 0x42 No of Blocks Downloaded : 0x43 No of Blocks Downloaded : 0x44 No of Blocks Downloaded : 0x45 No of Blocks Downloaded : 0x46 No of Blocks Downloaded : 0x47 No of Blocks Downloaded : 0x48 No of Blocks Downloaded : 0x49 No of Blocks Downloaded : 0x4a No of Blocks Downloaded : 0x4b No of Blocks Downloaded : 0x4c No of Blocks Downloaded : 0x4d No of Blocks Downloaded : 0x4e No of Blocks Downloaded : 0x4f No of Blocks Downloaded : 0x50 No of Blocks Downloaded : 0x51 No of Blocks Downloaded : 0x52 No of Blocks Downloaded : 0x53 No of Blocks Downloaded : 0x54 No of Blocks Downloaded : 0x55 No of Blocks Downloaded : 0x56 No of Blocks Downloaded : 0x57 No of Blocks Downloaded : 0x58 No of Blocks Downloaded : 0x59 No of Blocks Downloaded : 0x5a No of Blocks Downloaded : 0x5b No of Blocks Downloaded : 0x5c No of Blocks Downloaded : 0x5d No of Blocks Downloaded : 0x5e No of Blocks Downloaded : 0x5f No of Blocks Downloaded : 0x60 No of Blocks Downloaded : 0x61 No of Blocks Downloaded : 0x62 No of Blocks Downloaded : 0x63 No of Blocks Downloaded : 0x64 No of Blocks Downloaded : 0x65 No of Blocks Downloaded : 0x66 No of Blocks Downloaded : 0x67 No of Blocks Downloaded : 0x68 No of Blocks Downloaded : 0x69 No of Blocks Downloaded : 0x6a No of Blocks Downloaded : 0x6b No of Blocks Downloaded : 0x6c No of Blocks Downloaded : 0x6d No of Blocks Downloaded : 0x6e No of Blocks Downloaded : 0x6f No of Blocks Downloaded : 0x70 No of Blocks Downloaded : 0x71 No of Blocks Downloaded : 0x72 No of Blocks Downloaded : 0x73 No of Blocks Downloaded : 0x74 No of Blocks Downloaded : 0x75 No of Blocks Downloaded : 0x76 No of Blocks Downloaded : 0x77 No of Blocks Downloaded : 0x78 No of Blocks Downloaded : 0x79 No of Blocks Downloaded : 0x7a No of Blocks Downloaded : 0x7b No of Blocks Downloaded : 0x7c No of Blocks Downloaded : 0x7d No of Blocks Downloaded : 0x7e No of Blocks Downloaded : 0x7f No of Blocks Downloaded : 0x80 No of Blocks Downloaded : 0x81 No of Blocks Downloaded : 0x82 No of Blocks Downloaded : 0x83 No of Blocks Downloaded : 0x84 Load Successful ; Code loaded at 0x0x101000 (1402 bytes/sec)
-Executing the image 'build/MyOS.dli' on the SPEDE Target with GDB Enabled
-Launching GDB...
-Reading symbols from [32mbuild/MyOS.dli[m...
-Expanding full symbols from [32mbuild/MyOS.dli[m...
-Remote debugging using /dev/pts/2
-[34m0x001026a1[m in [33mbreakpoint[m ()
-Temporary breakpoint 1 at [34m0x101221[m: file [32msrc/main.c[m, line 45.
-
-Temporary breakpoint 1, [33mmain[m () at [32msrc/main.c[m:45
-45	    [36mchar[39;49;00m buf[[34m128[39;49;00m] = {[34m0[39;49;00m};
-[?2004h[31mSPEDE GDB$ [0m[7mbreak puts[27mbreak puts
-[?2004lBreakpoint 2 at [34m0x10119d[m: file [32msrc/main.c[m, line 26.
-[?2004h[31mSPEDE GDB$ [0m[7minfo break[27minfo break
-[?2004lNum     Type           Disp Enb Address    What
-2       breakpoint     keep y   [34m0x0010119d[m in [33mputs[m at [32msrc/main.c[m:26
-[?2004h[31mSPEDE GDB$ [0m[7mcontinue[27mcontinue
-[?2004lContinuing.
-Hello, world!
-Welcome to MyOS!
-
-Breakpoint 2, [33mputs[m ([36mstr[m=0x10424b "Hello, World!\n") at [32msrc/main.c[m:26
-26	    [34mif[39;49;00m (!str) { [37m// **CHANGE:** Corrected Null Check[39;49;00m
-[?2004h[?2004l[?2004h[31mSPEDE GDB$ [0m[7mlist[27mlist
-[?2004l21	[37m/**[39;49;00m
-22	[37m * Prints a string to the screen starting at 0, 0[39;49;00m
-23	[37m * @param str pointer to the string to print[39;49;00m
-24	[37m */[39;49;00m
-25	[36mvoid[39;49;00m [32mputs[39;49;00m([36mchar[39;49;00m *str) {
-26	    [34mif[39;49;00m (!str) { [37m// **CHANGE:** Corrected Null Check[39;49;00m
-27	        printf([33m"[39;49;00m[33mNULL pointer![39;49;00m[33m\n[39;49;00m[33m"[39;49;00m);
-28	        [34mreturn[39;49;00m;
-29	    }
-30	
-[?2004h[31mSPEDE GDB$ [0m[7mprint str[27mprint str
-[?2004l$1 = [34m0x10424b[m "Hello, World!\n"
-[?2004h[31mSPEDE GDB$ [0m[7mstep[27mstep
-[?2004l31	    [34mvolatile[39;49;00m [36mchar[39;49;00m *video = ([34mvolatile[39;49;00m [36mchar[39;49;00m *) VIDEO_MEMORY;
-[?2004h[?2004l[?2004h[31mSPEDE GDB$ [0m[7mstep[27mstep
-[?2004l32	    [36msize_t[39;49;00m len = strlen(str); 
-[?2004h[?2004l[?2004h[31mSPEDE GDB$ [0m[7mcontinue[27mcontinue
-[?2004lContinuing.
-The buffer size is 17 bytes
-
-Breakpoint 2, [33mputs[m ([36mstr[m=0x10dfc "Welcome to MyOS!\n") at [32msrc/main.c[m:26
-26	    [34mif[39;49;00m (!str) { [37m// **CHANGE:** Corrected Null Check[39;49;00m
-[?2004h[?2004l[?2004h[31mSPEDE GDB$ [0m[7mjump +3[27mjump +3
-[?2004lContinuing at 0x1011b5.
-CPE/CSC 159 for Spring/Fall 1970 will be fun!
-[Inferior 1 (Remote target) exited normally]
-[?2004h[?2004l[?2004h[31mSPEDE GDB$ [0m[7mbreak strlen[27mbreak strlen
-[?2004lBreakpoint 3 at [34m0x101178[m: file [32msrc/main.c[m, line 13.
-[?2004h[31mSPEDE GDB$ [0m[7minfo break[27minfo break
-[?2004lNum     Type           Disp Enb Address    What
-2       breakpoint     keep y   [34m0x0010119d[m in [33mputs[m at [32msrc/main.c[m:26
-	breakpoint already hit 2 times
-3       breakpoint     keep y   [34m0x00101178[m in [33mstrlen[m at [32msrc/main.c[m:13
-[?2004h[31mSPEDE GDB$ [0m[7mcontinue[27mcontinue
-[?2004lThe program is not being run.
-[?2004h[31mSPEDE GDB$ [0mexit
-[?2004l[0;32m-[0m[0;90m[[0;36mspede[0;90m][0m [0;33m~/Desktop/phase0-BrianHert/02-debugging[0m [0;31m{main *%>}[0m
-[0;90m00:10:15[0m $ clear
-[H[2J[3J[0;32m-[0m[0;90m[[0;36mspede[0;90m][0m [0;33m~/Desktop/phase0-BrianHert/02-debugging[0m [0;31m{main *%>}[0m
-[0;90m00:10:18[0m $ spede-a[Ktarget
-Launching SPEDE target to run in the background
-[0;32m-[0m[0;90m[[0;36mspede[0;90m][0m [0;33m~/Desktop/phase0-BrianHert/02-debugging[0m [0;31m{main *%>}[0m
-[0;90m00:10:30[0m $ spede[K[K[K[K[Kcontinue
-bash: continue: only meaningful in a `for', `while', or `until' loop
-[0;32m-[0m[0;90m[[0;36mspede[0;90m][0m [0;33m~/Desktop/phase0-BrianHert/02-debugging[0m [0;31m{main *%>}[0m
-[0;90m00:10:38[0m $ spede-tar[K[K[Krun- d[K[K[K -d
-The SPEDE Target will be reset, are you sure? (y/n) y
-Resetting the SPEDE Target...
-Downloading image 'build/MyOS.dli' to SPEDE Target via /dev/pts/2...
-File type is 'ELF'
-Total blocks to download:  0x83  (128 bytes each)
-
-??Now have attention of monitor...No of Blocks Downloaded : 0x2 No of Blocks Downloaded : 0x3 No of Blocks Downloaded : 0x4 No of Blocks Downloaded : 0x5 No of Blocks Downloaded : 0x6 No of Blocks Downloaded : 0x7 No of Blocks Downloaded : 0x8 No of Blocks Downloaded : 0x9 No of Blocks Downloaded : 0xa No of Blocks Downloaded : 0xb No of Blocks Downloaded : 0xc No of Blocks Downloaded : 0xd No of Blocks Downloaded : 0xe No of Blocks Downloaded : 0xf No of Blocks Downloaded : 0x10 No of Blocks Downloaded : 0x11 No of Blocks Downloaded : 0x12 No of Blocks Downloaded : 0x13 No of Blocks Downloaded : 0x14 No of Blocks Downloaded : 0x15 No of Blocks Downloaded : 0x16 No of Blocks Downloaded : 0x17 No of Blocks Downloaded : 0x18 No of Blocks Downloaded : 0x19 No of Blocks Downloaded : 0x1a No of Blocks Downloaded : 0x1b No of Blocks Downloaded : 0x1c No of Blocks Downloaded : 0x1d No of Blocks Downloaded : 0x1e No of Blocks Downloaded : 0x1f No of Blocks Downloaded : 0x20 No of Blocks Downloaded : 0x21 No of Blocks Downloaded : 0x22 No of Blocks Downloaded : 0x23 No of Blocks Downloaded : 0x24 No of Blocks Downloaded : 0x25 No of Blocks Downloaded : 0x26 No of Blocks Downloaded : 0x27 No of Blocks Downloaded : 0x28 No of Blocks Downloaded : 0x29 No of Blocks Downloaded : 0x2a No of Blocks Downloaded : 0x2b No of Blocks Downloaded : 0x2c No of Blocks Downloaded : 0x2d No of Blocks Downloaded : 0x2e No of Blocks Downloaded : 0x2f No of Blocks Downloaded : 0x30 No of Blocks Downloaded : 0x31 No of Blocks Downloaded : 0x32 No of Blocks Downloaded : 0x33 No of Blocks Downloaded : 0x34 No of Blocks Downloaded : 0x35 No of Blocks Downloaded : 0x36 No of Blocks Downloaded : 0x37 No of Blocks Downloaded : 0x38 No of Blocks Downloaded : 0x39 No of Blocks Downloaded : 0x3a No of Blocks Downloaded : 0x3b No of Blocks Downloaded : 0x3c No of Blocks Downloaded : 0x3d No of Blocks Downloaded : 0x3e No of Blocks Downloaded : 0x3f No of Blocks Downloaded : 0x40 No of Blocks Downloaded : 0x41 No of Blocks Downloaded : 0x42 No of Blocks Downloaded : 0x43 No of Blocks Downloaded : 0x44 No of Blocks Downloaded : 0x45 No of Blocks Downloaded : 0x46 No of Blocks Downloaded : 0x47 No of Blocks Downloaded : 0x48 No of Blocks Downloaded : 0x49 No of Blocks Downloaded : 0x4a No of Blocks Downloaded : 0x4b No of Blocks Downloaded : 0x4c No of Blocks Downloaded : 0x4d No of Blocks Downloaded : 0x4e No of Blocks Downloaded : 0x4f No of Blocks Downloaded : 0x50 No of Blocks Downloaded : 0x51 No of Blocks Downloaded : 0x52 No of Blocks Downloaded : 0x53 No of Blocks Downloaded : 0x54 No of Blocks Downloaded : 0x55 No of Blocks Downloaded : 0x56 No of Blocks Downloaded : 0x57 No of Blocks Downloaded : 0x58 No of Blocks Downloaded : 0x59 No of Blocks Downloaded : 0x5a No of Blocks Downloaded : 0x5b No of Blocks Downloaded : 0x5c No of Blocks Downloaded : 0x5d No of Blocks Downloaded : 0x5e No of Blocks Downloaded : 0x5f No of Blocks Downloaded : 0x60 No of Blocks Downloaded : 0x61 No of Blocks Downloaded : 0x62 No of Blocks Downloaded : 0x63 No of Blocks Downloaded : 0x64 No of Blocks Downloaded : 0x65 No of Blocks Downloaded : 0x66 No of Blocks Downloaded : 0x67 No of Blocks Downloaded : 0x68 No of Blocks Downloaded : 0x69 No of Blocks Downloaded : 0x6a No of Blocks Downloaded : 0x6b No of Blocks Downloaded : 0x6c No of Blocks Downloaded : 0x6d No of Blocks Downloaded : 0x6e No of Blocks Downloaded : 0x6f No of Blocks Downloaded : 0x70 No of Blocks Downloaded : 0x71 No of Blocks Downloaded : 0x72 No of Blocks Downloaded : 0x73 No of Blocks Downloaded : 0x74 No of Blocks Downloaded : 0x75 No of Blocks Downloaded : 0x76 No of Blocks Downloaded : 0x77 No of Blocks Downloaded : 0x78 No of Blocks Downloaded : 0x79 No of Blocks Downloaded : 0x7a No of Blocks Downloaded : 0x7b No of Blocks Downloaded : 0x7c No of Blocks Downloaded : 0x7d No of Blocks Downloaded : 0x7e No of Blocks Downloaded : 0x7f No of Blocks Downloaded : 0x80 No of Blocks Downloaded : 0x81 No of Blocks Downloaded : 0x82 No of Blocks Downloaded : 0x83 No of Blocks Downloaded : 0x84 Load Successful ; Code loaded at 0x0x101000 (1402 bytes/sec)
-Executing the image 'build/MyOS.dli' on the SPEDE Target with GDB Enabled
-Launching GDB...
-Reading symbols from [32mbuild/MyOS.dli[m...
-Expanding full symbols from [32mbuild/MyOS.dli[m...
-Remote debugging using /dev/pts/2
-[34m0x001026a1[m in [33mbreakpoint[m ()
-Temporary breakpoint 1 at [34m0x101221[m: file [32msrc/main.c[m, line 45.
-
-Temporary breakpoint 1, [33mmain[m () at [32msrc/main.c[m:45
-45	    [36mchar[39;49;00m buf[[34m128[39;49;00m] = {[34m0[39;49;00m};
-[?2004h[31mSPEDE GDB$ [0m[7mcontinue[27mcontinue
-[?2004lContinuing.
-Hello, world!
-Welcome to MyOS!
-The buffer size is 17 bytes
-CPE/CSC 159 for Spring/Fall 1970 will be fun!
-[Inferior 1 (Remote target) exited normally]
-[?2004h[?2004l[?2004h[31mSPEDE GDB$ [0m[7mbacktrace[27mbacktrace
-[?2004lNo stack.
-[?2004h[31mSPEDE GDB$ [0mexit
-[?2004l[0;32m-[0m[0;90m[[0;36mspede[0;90m][0m [0;33m~/Desktop/phase0-BrianHert/02-debugging[0m [0;31m{main *%>}[0m
-[0;90m00:11:56[0m $ spede-target
-Launching SPEDE target to run in the background
-[0;32m-[0m[0;90m[[0;36mspede[0;90m][0m [0;33m~/Desktop/phase0-BrianHert/02-debugging[0m [0;31m{main *%>}[0m
-[0;90m00:12:08[0m $ cclear[K[K[K[K[K[Kclear
-[H[2J[3J[0;32m-[0m[0;90m[[0;36mspede[0;90m][0m [0;33m~/Desktop/phase0-BrianHert/02-debugging[0m [0;31m{main *%>}[0m
-[0;90m00:12:26[0m $ sspede[K[K[K[K[Kpedde[K[Ke-ta[K[Krun -d
-The SPEDE Target will be reset, are you sure? (y/n) y
-Resetting the SPEDE Target...
-Downloading image 'build/MyOS.dli' to SPEDE Target via /dev/pts/2...
-File type is 'ELF'
-Total blocks to download:  0x83  (128 bytes each)
-
-??Now have attention of monitor...No of Blocks Downloaded : 0x2 No of Blocks Downloaded : 0x3 No of Blocks Downloaded : 0x4 No of Blocks Downloaded : 0x5 No of Blocks Downloaded : 0x6 No of Blocks Downloaded : 0x7 No of Blocks Downloaded : 0x8 No of Blocks Downloaded : 0x9 No of Blocks Downloaded : 0xa No of Blocks Downloaded : 0xb No of Blocks Downloaded : 0xc No of Blocks Downloaded : 0xd No of Blocks Downloaded : 0xe No of Blocks Downloaded : 0xf No of Blocks Downloaded : 0x10 No of Blocks Downloaded : 0x11 No of Blocks Downloaded : 0x12 No of Blocks Downloaded : 0x13 No of Blocks Downloaded : 0x14 No of Blocks Downloaded : 0x15 No of Blocks Downloaded : 0x16 No of Blocks Downloaded : 0x17 No of Blocks Downloaded : 0x18 No of Blocks Downloaded : 0x19 No of Blocks Downloaded : 0x1a No of Blocks Downloaded : 0x1b No of Blocks Downloaded : 0x1c No of Blocks Downloaded : 0x1d No of Blocks Downloaded : 0x1e No of Blocks Downloaded : 0x1f No of Blocks Downloaded : 0x20 No of Blocks Downloaded : 0x21 No of Blocks Downloaded : 0x22 No of Blocks Downloaded : 0x23 No of Blocks Downloaded : 0x24 No of Blocks Downloaded : 0x25 No of Blocks Downloaded : 0x26 No of Blocks Downloaded : 0x27 No of Blocks Downloaded : 0x28 No of Blocks Downloaded : 0x29 No of Blocks Downloaded : 0x2a No of Blocks Downloaded : 0x2b No of Blocks Downloaded : 0x2c No of Blocks Downloaded : 0x2d No of Blocks Downloaded : 0x2e No of Blocks Downloaded : 0x2f No of Blocks Downloaded : 0x30 No of Blocks Downloaded : 0x31 No of Blocks Downloaded : 0x32 No of Blocks Downloaded : 0x33 No of Blocks Downloaded : 0x34 No of Blocks Downloaded : 0x35 No of Blocks Downloaded : 0x36 No of Blocks Downloaded : 0x37 No of Blocks Downloaded : 0x38 No of Blocks Downloaded : 0x39 No of Blocks Downloaded : 0x3a No of Blocks Downloaded : 0x3b No of Blocks Downloaded : 0x3c No of Blocks Downloaded : 0x3d No of Blocks Downloaded : 0x3e No of Blocks Downloaded : 0x3f No of Blocks Downloaded : 0x40 No of Blocks Downloaded : 0x41 No of Blocks Downloaded : 0x42 No of Blocks Downloaded : 0x43 No of Blocks Downloaded : 0x44 No of Blocks Downloaded : 0x45 No of Blocks Downloaded : 0x46 No of Blocks Downloaded : 0x47 No of Blocks Downloaded : 0x48 No of Blocks Downloaded : 0x49 No of Blocks Downloaded : 0x4a No of Blocks Downloaded : 0x4b No of Blocks Downloaded : 0x4c No of Blocks Downloaded : 0x4d No of Blocks Downloaded : 0x4e No of Blocks Downloaded : 0x4f No of Blocks Downloaded : 0x50 No of Blocks Downloaded : 0x51 No of Blocks Downloaded : 0x52 No of Blocks Downloaded : 0x53 No of Blocks Downloaded : 0x54 No of Blocks Downloaded : 0x55 No of Blocks Downloaded : 0x56 No of Blocks Downloaded : 0x57 No of Blocks Downloaded : 0x58 No of Blocks Downloaded : 0x59 No of Blocks Downloaded : 0x5a No of Blocks Downloaded : 0x5b No of Blocks Downloaded : 0x5c No of Blocks Downloaded : 0x5d No of Blocks Downloaded : 0x5e No of Blocks Downloaded : 0x5f No of Blocks Downloaded : 0x60 No of Blocks Downloaded : 0x61 No of Blocks Downloaded : 0x62 No of Blocks Downloaded : 0x63 No of Blocks Downloaded : 0x64 No of Blocks Downloaded : 0x65 No of Blocks Downloaded : 0x66 No of Blocks Downloaded : 0x67 No of Blocks Downloaded : 0x68 No of Blocks Downloaded : 0x69 No of Blocks Downloaded : 0x6a No of Blocks Downloaded : 0x6b No of Blocks Downloaded : 0x6c No of Blocks Downloaded : 0x6d No of Blocks Downloaded : 0x6e No of Blocks Downloaded : 0x6f No of Blocks Downloaded : 0x70 No of Blocks Downloaded : 0x71 No of Blocks Downloaded : 0x72 No of Blocks Downloaded : 0x73 No of Blocks Downloaded : 0x74 No of Blocks Downloaded : 0x75 No of Blocks Downloaded : 0x76 No of Blocks Downloaded : 0x77 No of Blocks Downloaded : 0x78 No of Blocks Downloaded : 0x79 No of Blocks Downloaded : 0x7a No of Blocks Downloaded : 0x7b No of Blocks Downloaded : 0x7c No of Blocks Downloaded : 0x7d No of Blocks Downloaded : 0x7e No of Blocks Downloaded : 0x7f No of Blocks Downloaded : 0x80 No of Blocks Downloaded : 0x81 No of Blocks Downloaded : 0x82 No of Blocks Downloaded : 0x83 No of Blocks Downloaded : 0x84 Load Successful ; Code loaded at 0x0x101000 (1294 bytes/sec)
-Executing the image 'build/MyOS.dli' on the SPEDE Target with GDB Enabled
-Launching GDB...
-Reading symbols from [32mbuild/MyOS.dli[m...
-Expanding full symbols from [32mbuild/MyOS.dli[m...
-Remote debugging using /dev/pts/2
-[34m0x001026a1[m in [33mbreakpoint[m ()
-Temporary breakpoint 1 at [34m0x101221[m: file [32msrc/main.c[m, line 45.
-
-Temporary breakpoint 1, [33mmain[m () at [32msrc/main.c[m:45
-45	    [36mchar[39;49;00m buf[[34m128[39;49;00m] = {[34m0[39;49;00m};
-[?2004h[31mSPEDE GDB$ [0m[7mbacktrace[27mbacktrace
-[?2004l
-#0  [33mmain[m () at [32msrc/main.c[m:45
-[?2004h[31mSPEDE GDB$ [0m
-[?2004l#0  [33mmain[m () at [32msrc/main.c[m:45
-[?2004h[31mSPEDE GDB$ [0m[7minfo args[27minfo args
-[?2004lNo arguments.
-[?2004h[31mSPEDE GDB$ [0mexit
-[?2004l[0;32m-[0m[0;90m[[0;36mspede[0;90m][0m [0;33m~/Desktop/phase0-BrianHert/02-debugging[0m [0;31m{main *%>}[0m
-[0;90m00:13:37[0m $ clear
-[H[2J[3J[0;32m-[0m[0;90m[[0;36mspede[0;90m][0m [0;33m~/Desktop/phase0-BrianHert/02-debugging[0m [0;31m{main *%>}[0m
-[0;90m00:13:44[0m $ spede-target
-Launching SPEDE target to run in the background
-[0;32m-[0m[0;90m[[0;36mspede[0;90m][0m [0;33m~/Desktop/phase0-BrianHert/02-debugging[0m [0;31m{main *%>}[0m
-[0;90m00:13:50[0m $ spede-run -d
-The SPEDE Target will be reset, are you sure? (y/n) y
-Resetting the SPEDE Target...
-Downloading image 'build/MyOS.dli' to SPEDE Target via /dev/pts/2...
-File type is 'ELF'
-Total blocks to download:  0x83  (128 bytes each)
-
-??Now have attention of monitor...No of Blocks Downloaded : 0x2 No of Blocks Downloaded : 0x3 No of Blocks Downloaded : 0x4 No of Blocks Downloaded : 0x5 No of Blocks Downloaded : 0x6 No of Blocks Downloaded : 0x7 No of Blocks Downloaded : 0x8 No of Blocks Downloaded : 0x9 No of Blocks Downloaded : 0xa No of Blocks Downloaded : 0xb No of Blocks Downloaded : 0xc No of Blocks Downloaded : 0xd No of Blocks Downloaded : 0xe No of Blocks Downloaded : 0xf No of Blocks Downloaded : 0x10 No of Blocks Downloaded : 0x11 No of Blocks Downloaded : 0x12 No of Blocks Downloaded : 0x13 No of Blocks Downloaded : 0x14 No of Blocks Downloaded : 0x15 No of Blocks Downloaded : 0x16 No of Blocks Downloaded : 0x17 No of Blocks Downloaded : 0x18 No of Blocks Downloaded : 0x19 No of Blocks Downloaded : 0x1a No of Blocks Downloaded : 0x1b No of Blocks Downloaded : 0x1c No of Blocks Downloaded : 0x1d No of Blocks Downloaded : 0x1e No of Blocks Downloaded : 0x1f No of Blocks Downloaded : 0x20 No of Blocks Downloaded : 0x21 No of Blocks Downloaded : 0x22 No of Blocks Downloaded : 0x23 No of Blocks Downloaded : 0x24 No of Blocks Downloaded : 0x25 No of Blocks Downloaded : 0x26 No of Blocks Downloaded : 0x27 No of Blocks Downloaded : 0x28 No of Blocks Downloaded : 0x29 No of Blocks Downloaded : 0x2a No of Blocks Downloaded : 0x2b No of Blocks Downloaded : 0x2c No of Blocks Downloaded : 0x2d No of Blocks Downloaded : 0x2e No of Blocks Downloaded : 0x2f No of Blocks Downloaded : 0x30 No of Blocks Downloaded : 0x31 No of Blocks Downloaded : 0x32 No of Blocks Downloaded : 0x33 No of Blocks Downloaded : 0x34 No of Blocks Downloaded : 0x35 No of Blocks Downloaded : 0x36 No of Blocks Downloaded : 0x37 No of Blocks Downloaded : 0x38 No of Blocks Downloaded : 0x39 No of Blocks Downloaded : 0x3a No of Blocks Downloaded : 0x3b No of Blocks Downloaded : 0x3c No of Blocks Downloaded : 0x3d No of Blocks Downloaded : 0x3e No of Blocks Downloaded : 0x3f No of Blocks Downloaded : 0x40 No of Blocks Downloaded : 0x41 No of Blocks Downloaded : 0x42 No of Blocks Downloaded : 0x43 No of Blocks Downloaded : 0x44 No of Blocks Downloaded : 0x45 No of Blocks Downloaded : 0x46 No of Blocks Downloaded : 0x47 No of Blocks Downloaded : 0x48 No of Blocks Downloaded : 0x49 No of Blocks Downloaded : 0x4a No of Blocks Downloaded : 0x4b No of Blocks Downloaded : 0x4c No of Blocks Downloaded : 0x4d No of Blocks Downloaded : 0x4e No of Blocks Downloaded : 0x4f No of Blocks Downloaded : 0x50 No of Blocks Downloaded : 0x51 No of Blocks Downloaded : 0x52 No of Blocks Downloaded : 0x53 No of Blocks Downloaded : 0x54 No of Blocks Downloaded : 0x55 No of Blocks Downloaded : 0x56 No of Blocks Downloaded : 0x57 No of Blocks Downloaded : 0x58 No of Blocks Downloaded : 0x59 No of Blocks Downloaded : 0x5a No of Blocks Downloaded : 0x5b No of Blocks Downloaded : 0x5c No of Blocks Downloaded : 0x5d No of Blocks Downloaded : 0x5e No of Blocks Downloaded : 0x5f No of Blocks Downloaded : 0x60 No of Blocks Downloaded : 0x61 No of Blocks Downloaded : 0x62 No of Blocks Downloaded : 0x63 No of Blocks Downloaded : 0x64 No of Blocks Downloaded : 0x65 No of Blocks Downloaded : 0x66 No of Blocks Downloaded : 0x67 No of Blocks Downloaded : 0x68 No of Blocks Downloaded : 0x69 No of Blocks Downloaded : 0x6a No of Blocks Downloaded : 0x6b No of Blocks Downloaded : 0x6c No of Blocks Downloaded : 0x6d No of Blocks Downloaded : 0x6e No of Blocks Downloaded : 0x6f No of Blocks Downloaded : 0x70 No of Blocks Downloaded : 0x71 No of Blocks Downloaded : 0x72 No of Blocks Downloaded : 0x73 No of Blocks Downloaded : 0x74 No of Blocks Downloaded : 0x75 No of Blocks Downloaded : 0x76 No of Blocks Downloaded : 0x77 No of Blocks Downloaded : 0x78 No of Blocks Downloaded : 0x79 No of Blocks Downloaded : 0x7a No of Blocks Downloaded : 0x7b No of Blocks Downloaded : 0x7c No of Blocks Downloaded : 0x7d No of Blocks Downloaded : 0x7e No of Blocks Downloaded : 0x7f No of Blocks Downloaded : 0x80 No of Blocks Downloaded : 0x81 No of Blocks Downloaded : 0x82 No of Blocks Downloaded : 0x83 No of Blocks Downloaded : 0x84 Load Successful ; Code loaded at 0x0x101000 (1402 bytes/sec)
-Executing the image 'build/MyOS.dli' on the SPEDE Target with GDB Enabled
-Launching GDB...
-Reading symbols from [32mbuild/MyOS.dli[m...
-Expanding full symbols from [32mbuild/MyOS.dli[m...
-Remote debugging using /dev/pts/2
-[34m0x001026a1[m in [33mbreakpoint[m ()
-Temporary breakpoint 1 at [34m0x101221[m: file [32msrc/main.c[m, line 45.
-
-Temporary breakpoint 1, [33mmain[m () at [32msrc/main.c[m:45
-45	    [36mchar[39;49;00m buf[[34m128[39;49;00m] = {[34m0[39;49;00m};
-[?2004h[31mSPEDE GDB$ [0m[7minfo args[27minfo args
-[?2004lNo arguments.
-[?2004h[31mSPEDE GDB$ [0m[7minfo break[27minfo break
-[?2004lNo breakpoints or watchpoints.
-[?2004h[31mSPEDE GDB$ [0m[7mprint str[27mprint str
-[?2004lNo symbol "str" in current context.
-[?2004h[31mSPEDE GDB$ [0m[7mcontinue[27mcontinue
-[?2004lContinuing.
-Hello, world!
-Welcome to MyOS!
-The buffer size is 17 bytes
-CPE/CSC 159 for Spring/Fall 1970 will be fun!
-[Inferior 1 (Remote target) exited normally]
-[?2004h[?2004l[?2004h[31mSPEDE GDB$ [0m[7mbreak strlen[27mbreak strlen
-[?2004lBreakpoint 2 at [34m0x101178[m: file [32msrc/main.c[m, line 13.
-[?2004h[31mSPEDE GDB$ [0m[7minfo break[27minfo break
-[?2004lNum     Type           Disp Enb Address    What
-2       breakpoint     keep y   [34m0x00101178[m in [33mstrlen[m at [32msrc/main.c[m:13
-[?2004h[31mSPEDE GDB$ [0m[7mdelete 2[27mdelete 2
-[?2004l[?2004h[31mSPEDE GDB$ [0m[7minfo break[27minfo break
-[?2004lNo breakpoints or watchpoints.
-[?2004h[31mSPEDE GDB$ [0mexit
-[?2004l[0;32m-[0m[0;90m[[0;36mspede[0;90m][0m [0;33m~/Desktop/phase0-BrianHert/02-debugging[0m [0;31m{main *%>}[0m
-[0;90m00:17:55[0m $ cd src
-[0;32m-[0m[0;90m[[0;36mspede[0;90m][0m [0;33m~/Desktop/phase0-BrianHert/02-debugging/src[0m [0;31m{main *%>}[0m
-[0;90m00:18:01[0m $ nano main.c
-[?2004h[?1049h[22;0;0t[1;41r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[39;69H(B[0;7m[ Reading... ](B[m[39;68H(B[0;7m[ Read 61 lines ](B[m[H(B[0;7m  GNU nano 4.8                                                            main.c                                                                       [1;150H(B[m[40d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[97G(B[0;7mM-U(B[m Undo[40;113H(B[0;7mM-A(B[m Mark Text   (B[0;7mM-](B[m To Bracket[41d(B[0;7m^X(B[m Exit[41;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line   (B[0;7mM-E(B[m Redo[41;113H(B[0;7mM-6(B[m Copy Text   (B[0;7m^Q(B[m Where Was[39d[2d(B[0;1m[36m#include[33m <spede/stdio.h>[4d[34m// **CHANGE:** Define VIDEO_MEMORY and WHITE_ON_BLACK constants[5d[36m#define[39m(B[m (B[0;1m[31mVIDEO_MEMORY[39m(B[m 0xB8000[5;41H(B[0;1m[34m// Memory address for video output[6d[36m#define[39m(B[m (B[0;1m[31mWHITE_ON_BLACK[39m(B[m 0x0F[6;41H(B[0;1m[34m// Color attribute for white text on black background[8d/**[9d * Returns the length of a NULL terminated string[10d * @param str pointer to the string[11d * @return value indicating the length of the string[12d */[13d(B[0m[32mint[39m(B[m strlen([32mchar[39m(B[m *str) {[14;5H[32mint[39m(B[m len = 0;[15;5H(B[0;1m[34m// Traverse the string until the NULL character is encountered[16;5H[33mwhile[39m(B[m (str[len] != (B[0;1m[35m'\0'[39m(B[m) {[17;9Hlen++;[18;5H}[19d[35mreturn[39m(B[m len;[20d}[22d(B[0;1m[34m/**[23d * Prints a string to the screen starting at 0, 0[24d * @param str pointer to the string to print[25d */[26d(B[0m[32mvoid[39m(B[m puts([32mchar[39m(B[m *str) {[27;5H(B[0;1m[33mif[39m(B[m (!str) { (B[0;1m[34m// **CHANGE:** Corrected Null Check[28;9H[39m(B[mprintf((B[0;1m[33m"NULL pointer!\n"[39m(B[m);[29;9H[35mreturn[39m(B[m;[30;5H}[32d[32mvolatile[39m(B[m [32mchar[39m(B[m *video = ([32mvolatile[39m(B[m [32mchar[39m(B[m *) (B[0;1m[31mVIDEO_MEMORY[39m(B[m;[33;5H[32msize_t[39m(B[m len = strlen(str);[42m [35;5H(B[0;1m[33mfor[39m(B[m ([32msize_t[39m(B[m i = 0; i < len; i++) {[36;9Hvideo[i * 2] = str[i];[36;44H(B[0;1m[34m// Store Character[37;9H[39m(B[mvideo[i * 2 + 1] = (B[0;1m[31mWHITE_ON_BLACK[39m(B[m; (B[0;1m[34m// Set text color[38;5H[39m(B[m}[2d[?12l[?25h[?25l[3d[?12l[?25h[?25l[7d[?12l[?25h[?25l[12d[?12l[?25h[?25l[13d[?12l[?25h[?25l[27d[?12l[?25h[?25l[39d[K[37d[?12l[?25h[?25l[2d[32mvoid[39m(B[m puts([32mchar[39m(B[m *str) {[K[3;5H(B[0;1m[33mif[39m(B[m (!str) { (B[0;1m[34m// **CHANGE:** Corrected Null Check[4;8H[39m(B[m[1K printf((B[0;1m[33m"NULL pointer!\n"[39m(B[m);[K[5;8H[1K [35mreturn[39m(B[m;[K[6d    }[K[8d    [32mvolatile[39m(B[m [32mchar[39m(B[m *video = ([32mvolatile[39m(B[m [32mchar[39m(B[m *) (B[0;1m[31mVIDEO_MEMORY[39m(B[m;[9d    [32msize_t[39m(B[m len = strlen(str);[42m [49m(B[m[K[10d[K[11d    (B[0;1m[33mfor[39m(B[m ([32msize_t[39m(B[m i = 0; i < len; i++) {[K[12;8H[1K video[i * 2] = str[i];[12;44H(B[0;1m[34m// Store Character[13;8H[39m(B[m[1K video[i * 2 + 1] = (B[0;1m[31mWHITE_ON_BLACK[39m(B[m; (B[0;1m[34m// Set text color[14;5H[39m(B[m}[K[15d}[K[16d[K[17d(B[0;1m[34m/**[39m(B[m[K[18d(B[0;1m[34m * Main function[19d * **CHANGE:** Fixed return type of main function[20d */[21d(B[0m[32mint[39m(B[m main([32mvoid[39m(B[m) { (B[0;1m[34m// **CHANGE:** Corrected 'int void main(void)' to 'int main(void)'[22d[39m(B[m    [32mchar[39m(B[m buf[128] = {0};[23d    [32mint[39m(B[m year = 1970;[K[24d[K[25d    *(([32mchar[39m(B[m *) 0xB8000) = (B[0;1m[35m'A'[39m(B[m; (B[0;1m[34m// Test output to video memory[26d[39m(B[m[K[27;5Hprintf((B[0;1m[33m"Hello, world!\n"[39m(B[m);[K[28;5Hprintf((B[0;1m[33m"Welcome to %s!\n"[39m(B[m, (B[0;1m[31mOS_NAME[39m(B[m);[29d[K[30;5Hputs((B[0;1m[33m"Hello, World!\n"[39m(B[m);[32;5Hsnprintf(buf, [32msizeof[39m(B[m(buf), (B[0;1m[33m"Welcome to %s!\n"[39m(B[m, (B[0;1m[31mOS_NAME[39m(B[m);[33;5Hprintf((B[0;1m[33m"The buffer size is %d bytes\n"[39m(B[m, strlen(buf));[34;5Hputs(buf);[35d[K[36;5Hprintf((B[0;1m[33m"CPE/CSC 159 for Spring/Fall %d will be fun!\n"[39m(B[m, year);[37;5H[35mreturn[39m(B[m 0; (B[0;1m[34m// **CHANGE:** Added return 0 to main function[38d[39m(B[m}[K[?12l[?25h[?25l7[2;39r8[39d
-[1;41r[38;1H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[A[?12l[?25h[?25l[33d[?12l[?25h[?25l[28d[?12l[?25h[?25l[23d[?12l[?25h[?25l[A[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l [?12l[?25h[?25ly[?12l[?25h[?25le[?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25l [?12l[?25h[?25l=[?12l[?25h[?25l [?12l[?25h[?25l1[?12l[?25h[?25l9[?12l[?25h[?25l7[?12l[?25h[?25l0[?12l[?25h[?25l[1;142H(B[0;7mModified(B[m[22;19H;[K[?12l[?25h[?25l;[K[?12l[?25h[?25l;[K[?12l[?25h[?25l;[K[?12l[?25h[?25l2;[?12l[?25h[?25l0;[?12l[?25h[?25l2;[?12l[?25h[?25l5;[?12l[?25h[?25l[39d(B[0;7mSave modified buffer?                                                                                                                                  [40;1H Y(B[m Yes[K[41d(B[0;7m N(B[m No  [41;18H(B[0;7mC(B[m Cancel[K[39;23H[?12l[?25h[?25l[40d(B[0;7m^G(B[m Get Help[40;38H(B[0;7mM-D(B[m DOS Format[40;75H(B[0;7mM-A(B[m Append[40;112H(B[0;7mM-B(B[m Backup File[41d(B[0;7m^C(B[m Cancel[17G         [41;38H(B[0;7mM-M(B[m Mac Format[41;75H(B[0;7mM-P(B[m Prepend[41;112H(B[0;7m^T(B[m To Files[39d(B[0;7mFile Name to Write: main.c(B[m[39;27H[?12l[?25h[?25l[39;68H[1K (B[0;7m[ Writing... ](B[m[K[1;142H(B[0;7m        (B[m[39;67H(B[0;7m[ Wrote 61 lines ](B[m[J[41d[?12l[?25h[41;1H[?1049l[23;0;0t[?1l>[?2004l[0;32m-[0m[0;90m[[0;36mspede[0;90m][0m [0;33m~/Desktop/phase0-BrianHert/02-debugging/src[0m [0;31m{main *%>}[0m
-[0;90m00:18:22[0m $ spede-target
-The socket file './spede.sock' exists but SPEDE doesn't appear to be running
-
-Delete the socket and continue execution? (y/n) y
-Launching SPEDE target to run in the background
-[0;32m-[0m[0;90m[[0;36mspede[0;90m][0m [0;33m~/Desktop/phase0-BrianHert/02-debugging/src[0m [0;31m{main *%>}[0m
-[0;90m00:18:38[0m $ speed[K[Kde-run -d
-Image 'build/MyOS.dli' cannot be found
-[0;31m![0m[0;90m[[0;36mspede[0;90m][0m [0;33m~/Desktop/phase0-BrianHert/02-debugging/src[0m [0;31m{main *%>}[0m
-[0;90m00:18:47[0m $ cd ..
-[0;32m-[0m[0;90m[[0;36mspede[0;90m][0m [0;33m~/Desktop/phase0-BrianHert/02-debugging[0m [0;31m{main *%>}[0m
-[0;90m00:19:04[0m $ spede-run -d
-Socket './spede.sock' does not exist. Exiting...
-[0;31m![0m[0;90m[[0;36mspede[0;90m][0m [0;33m~/Desktop/phase0-BrianHert/02-debugging[0m [0;31m{main *%>}[0m
-[0;90m00:19:10[0m $ clear
-[H[2J[3J[0;32m-[0m[0;90m[[0;36mspede[0;90m][0m [0;33m~/Desktop/phase0-BrianHert/02-debugging[0m [0;31m{main *%>}[0m
-[0;90m00:19:25[0m $ spede-run -d
-Socket './spede.sock' does not exist. Exiting...
-[0;31m![0m[0;90m[[0;36mspede[0;90m][0m [0;33m~/Desktop/phase0-BrianHert/02-debugging[0m [0;31m{main *%>}[0m
-[0;90m00:19:30[0m $ spede-a[Ktarget
-Launching SPEDE target to run in the background
-[0;32m-[0m[0;90m[[0;36mspede[0;90m][0m [0;33m~/Desktop/phase0-BrianHert/02-debugging[0m [0;31m{main *%>}[0m
-[0;90m00:19:51[0m $ spede-run --d[K[Kd
-The SPEDE Target will be reset, are you sure? (y/n) 
-Exiting...
-[0;31m![0m[0;90m[[0;36mspede[0;90m][0m [0;33m~/Desktop/phase0-BrianHert/02-debugging[0m [0;31m{main *%>}[0m
-[0;90m00:20:10[0m $ spede-run -d
-The SPEDE Target will be reset, are you sure? (y/n) y
-Resetting the SPEDE Target...
-Downloading image 'build/MyOS.dli' to SPEDE Target via /dev/pts/2...
-File type is 'ELF'
-Total blocks to download:  0x83  (128 bytes each)
-
-??Now have attention of monitor...No of Blocks Downloaded : 0x2 No of Blocks Downloaded : 0x3 No of Blocks Downloaded : 0x4 No of Blocks Downloaded : 0x5 No of Blocks Downloaded : 0x6 No of Blocks Downloaded : 0x7 No of Blocks Downloaded : 0x8 No of Blocks Downloaded : 0x9 No of Blocks Downloaded : 0xa No of Blocks Downloaded : 0xb No of Blocks Downloaded : 0xc No of Blocks Downloaded : 0xd No of Blocks Downloaded : 0xe No of Blocks Downloaded : 0xf No of Blocks Downloaded : 0x10 No of Blocks Downloaded : 0x11 No of Blocks Downloaded : 0x12 No of Blocks Downloaded : 0x13 No of Blocks Downloaded : 0x14 No of Blocks Downloaded : 0x15 No of Blocks Downloaded : 0x16 No of Blocks Downloaded : 0x17 No of Blocks Downloaded : 0x18 No of Blocks Downloaded : 0x19 No of Blocks Downloaded : 0x1a No of Blocks Downloaded : 0x1b No of Blocks Downloaded : 0x1c No of Blocks Downloaded : 0x1d No of Blocks Downloaded : 0x1e No of Blocks Downloaded : 0x1f No of Blocks Downloaded : 0x20 No of Blocks Downloaded : 0x21 No of Blocks Downloaded : 0x22 No of Blocks Downloaded : 0x23 No of Blocks Downloaded : 0x24 No of Blocks Downloaded : 0x25 No of Blocks Downloaded : 0x26 No of Blocks Downloaded : 0x27 No of Blocks Downloaded : 0x28 No of Blocks Downloaded : 0x29 No of Blocks Downloaded : 0x2a No of Blocks Downloaded : 0x2b No of Blocks Downloaded : 0x2c No of Blocks Downloaded : 0x2d No of Blocks Downloaded : 0x2e No of Blocks Downloaded : 0x2f No of Blocks Downloaded : 0x30 No of Blocks Downloaded : 0x31 No of Blocks Downloaded : 0x32 No of Blocks Downloaded : 0x33 No of Blocks Downloaded : 0x34 No of Blocks Downloaded : 0x35 No of Blocks Downloaded : 0x36 No of Blocks Downloaded : 0x37 No of Blocks Downloaded : 0x38 No of Blocks Downloaded : 0x39 No of Blocks Downloaded : 0x3a No of Blocks Downloaded : 0x3b No of Blocks Downloaded : 0x3c No of Blocks Downloaded : 0x3d No of Blocks Downloaded : 0x3e No of Blocks Downloaded : 0x3f No of Blocks Downloaded : 0x40 No of Blocks Downloaded : 0x41 No of Blocks Downloaded : 0x42 No of Blocks Downloaded : 0x43 No of Blocks Downloaded : 0x44 No of Blocks Downloaded : 0x45 No of Blocks Downloaded : 0x46 No of Blocks Downloaded : 0x47 No of Blocks Downloaded : 0x48 No of Blocks Downloaded : 0x49 No of Blocks Downloaded : 0x4a No of Blocks Downloaded : 0x4b No of Blocks Downloaded : 0x4c No of Blocks Downloaded : 0x4d No of Blocks Downloaded : 0x4e No of Blocks Downloaded : 0x4f No of Blocks Downloaded : 0x50 No of Blocks Downloaded : 0x51 No of Blocks Downloaded : 0x52 No of Blocks Downloaded : 0x53 No of Blocks Downloaded : 0x54 No of Blocks Downloaded : 0x55 No of Blocks Downloaded : 0x56 No of Blocks Downloaded : 0x57 No of Blocks Downloaded : 0x58 No of Blocks Downloaded : 0x59 No of Blocks Downloaded : 0x5a No of Blocks Downloaded : 0x5b No of Blocks Downloaded : 0x5c No of Blocks Downloaded : 0x5d No of Blocks Downloaded : 0x5e No of Blocks Downloaded : 0x5f No of Blocks Downloaded : 0x60 No of Blocks Downloaded : 0x61 No of Blocks Downloaded : 0x62 No of Blocks Downloaded : 0x63 No of Blocks Downloaded : 0x64 No of Blocks Downloaded : 0x65 No of Blocks Downloaded : 0x66 No of Blocks Downloaded : 0x67 No of Blocks Downloaded : 0x68 No of Blocks Downloaded : 0x69 No of Blocks Downloaded : 0x6a No of Blocks Downloaded : 0x6b No of Blocks Downloaded : 0x6c No of Blocks Downloaded : 0x6d No of Blocks Downloaded : 0x6e No of Blocks Downloaded : 0x6f No of Blocks Downloaded : 0x70 No of Blocks Downloaded : 0x71 No of Blocks Downloaded : 0x72 No of Blocks Downloaded : 0x73 No of Blocks Downloaded : 0x74 No of Blocks Downloaded : 0x75 No of Blocks Downloaded : 0x76 No of Blocks Downloaded : 0x77 No of Blocks Downloaded : 0x78 No of Blocks Downloaded : 0x79 No of Blocks Downloaded : 0x7a No of Blocks Downloaded : 0x7b No of Blocks Downloaded : 0x7c No of Blocks Downloaded : 0x7d No of Blocks Downloaded : 0x7e No of Blocks Downloaded : 0x7f No of Blocks Downloaded : 0x80 No of Blocks Downloaded : 0x81 No of Blocks Downloaded : 0x82 No of Blocks Downloaded : 0x83 No of Blocks Downloaded : 0x84 Load Successful ; Code loaded at 0x0x101000 (1402 bytes/sec)
-Executing the image 'build/MyOS.dli' on the SPEDE Target with GDB Enabled
-Launching GDB...
-Reading symbols from [32mbuild/MyOS.dli[m...
-Expanding full symbols from [32mbuild/MyOS.dli[m...
-Remote debugging using /dev/pts/2
-[34m0x001026a1[m in [33mbreakpoint[m ()
-Temporary breakpoint 1 at [34m0x101221[m: file [32msrc/main.c[m, line 45.
-
-Temporary breakpoint 1, [33mmain[m () at [32msrc/main.c[m:45
-warning: Source file is more recent than executable.
-45	    [36mchar[39;49;00m buf[[34m128[39;49;00m] = {[34m0[39;49;00m};
-[?2004h[31mSPEDE GDB$ [0m[7mbreak main.c:55[27mbreak main.c:55
-[?2004lBreakpoint 2 at [34m0x101283[m: file [32msrc/main.c[m, line 55.
-[?2004h[31mSPEDE GDB$ [0m[7mbreak main.c:57[27mbreak main.c:57
-[?2004lBreakpoint 3 at [34m0x1012c4[m: file [32msrc/main.c[m, line 57.
-[?2004h[31mSPEDE GDB$ [0m[7minfo break[27minfo break
-[?2004lNum     Type           Disp Enb Address    What
-2       breakpoint     keep y   [34m0x00101283[m in [33mmain[m at [32msrc/main.c[m:55
-3       breakpoint     keep y   [34m0x001012c4[m in [33mmain[m at [32msrc/main.c[m:57
-[?2004h[31mSPEDE GDB$ [0m[7mcontinue[27mcontinue
-[?2004lContinuing.
-Hello, world!
-Welcome to MyOS!
-
-Breakpoint 2, [33mmain[m () at [32msrc/main.c[m:55
-55	    snprintf(buf, [34msizeof[39;49;00m(buf), [33m"[39;49;00m[33mWelcome to %s![39;49;00m[33m\n[39;49;00m[33m"[39;49;00m, OS_NAME);
-[?2004h[?2004l[?2004h[31mSPEDE GDB$ [0m[7mprint buf[27mprint buf
-[?2004l$1 = '\000' <repeats 127 times>
-[?2004h[31mSPEDE GDB$ [0m[7mset buf[0] = 'W'[27mset buf[0] = 'W'
-[?2004l[?2004h[31mSPEDE GDB$ [0m[7mprint buf[27mprint buf
-[?2004l$2 = "W", '\000' <repeats 126 times>
-[?2004h[31mSPEDE GDB$ [0m[7mcontinue[27mcontinue
-[?2004lContinuing.
-The buffer size is 17 bytes
-
-Breakpoint 3, [33mmain[m () at [32msrc/main.c[m:57
-57	    puts(buf);
-[?2004h[?2004l[?2004h[31mSPEDE GDB$ [0m[7mprint year[27mprint year
-[?2004l$3 = 0x7b2
-[?2004h[31mSPEDE GDB$ [0m[7mprint/d year[27mprint/d year
-[?2004l$4 = 1970
-[?2004h[31mSPEDE GDB$ [0m[7mset year=2023[27m[1Pset year=202[K[K[K220[K[K00[K[K025
-[?2004l[?2004h[31mSPEDE GDB$ [0m[7mprint/d year[27mprint/d year
-[?2004l$5 = 8229
-[?2004h[31mSPEDE GDB$ [0m[7mprint year[27mprint year
-[?2004l$6 = 0x2025
-[?2004h[31mSPEDE GDB$ [0m[7mset year=202[27m[7m5[27mset year=2025
-[?2004l[?2004h[31mSPEDE GDB$ [0m[7mprint/d year[27mprint/d year
-[?2004l$7 = 8229
-[?2004h[31mSPEDE GDB$ [0m[7mcontinue[27mcontinue
-[?2004lContinuing.
-CPE/CSC 159 for Spring/Fall 8229 will be fun!
-[Inferior 1 (Remote target) exited normally]
-[?2004h[?2004l[?2004h[31mSPEDE GDB$ [0mexit
-[?2004l[0;32m-[0m[0;90m[[0;36mspede[0;90m][0m [0;33m~/Desktop/phase0-BrianHert/02-debugging[0m [0;31m{main *%>}[0m
-[0;90m00:25:42[0m $ exit
-exit
-
-Script done on 2025-01-31 00:26:09-08:00 [COMMAND_EXIT_CODE="0"]
